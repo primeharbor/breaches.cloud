@@ -4,3 +4,4 @@ public/
 raw-headers/
 .hugo_build.lock
 Attic/*
+resources/
