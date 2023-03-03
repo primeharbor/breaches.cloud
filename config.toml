@@ -1,0 +1,186 @@
+baseURL = "https://breaches.cloud/"
+title = "Public Cloud Security Breaches"
+
+theme = "fuji"
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+## Change this two to switch between different language
+languageCode = "en"           # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "en" # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
+
+summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
+paginate = 10
+
+# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
+
+[outputFormats]
+[outputFormats.SearchIndex]
+isPlainText = true
+notAlternative = true
+mediaType = "application/json"
+path = "/search/"
+
+[outputs]
+home = ["HTML", "RSS", "SearchIndex"]
+
+[permalinks]
+post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+
+[params]
+author = "PrimeHarbor Technologies, LLC"                # You can also set author in post front matter individually
+author_url = "https://www.primeharbor.com"
+subTitle = "Documenting their mistakes so you don't make them."
+defaultTheme = "light"              # default theme when first visit (auto|dark|light)
+
+# Source URL of the website, will appear in the footer
+sourceURL = "https://github.com/jchrisfarris/breaches.cloud"
+
+# Use CloudFlare Workers to accelerate the Google Analytics
+# If you are using this please comment the googleAnalytics above
+# Check https://github.com/SukkaW/cloudflare-workers-async-google-analytics for more details
+# googleAnalyticsTid = "UA-000000000-0"
+# googleAnalyticsRoute = "https://*.*.workers.dev/"
+
+# Google AdSense
+# The AdSense code will be inserted between the head tags of your site.
+# googleAdsense = "0000000000000000"
+
+# Word counter and read time indicator in post metadata
+showWordCounter = false
+showReadTime = false
+hideNoTagList = false
+
+# License in the footer
+showLicenseInFooter = true
+
+# License at the end of each post
+showLicense = false
+showToc = true
+
+# Copyright
+copyrightStartYear = "2022"
+
+# Open Graph & Twitter Card variables
+# You can also set description and images in post front matter individually
+description = "FIXME IN CONFIG.TOML A minimal Hugo theme with nice theme color."
+og = "/img/og.png"                                          # This will use the image called og.png in static/img folder
+
+# Posts shown in homepage
+mainSections = ["news", "incidents"]
+
+
+news_section = ["news"]
+incidents_section = ["incidents", "aws", "gcp", "azure"]
+
+
+# Bangumi image chart id
+# bgmImageChart = "000000"
+
+# License
+license = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"
+licenseLink = "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+# <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+# Comments
+# utterances, see: https://utteranc.es/
+# utterancesRepo = "*/*"
+# utterancesIssueTerm = "pathname"
+
+# Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
+# disqusShortname = "*********"
+# Also use DisqusJS for accessing from Mainland China, see: https://github.com/SukkaW/DisqusJS
+# If you want to set multiple api key, see theme's README for more details
+# disqusJSApi = "https://*********/"
+# disqusJSApikey = "**********"
+
+# custom lazyload placeholder
+# 16:9
+lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
+# 32:9
+lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
+# 8:9
+lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
+
+# Let images display in full brightness under dark mode
+# disableDarkImage = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true # Enable user to embed HTML snippets in Markdown content
+[markup.highlight]
+codeFences = false # Disable Hugo's code highlighter
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+## Top Menu
+[menu]
+[[menu.nav]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.nav]]
+name = "Incidents"
+url = "/incidents/"
+weight = 2
+
+[[menu.nav]]
+name = "News"
+url = "/news/"
+weight = 2
+
+[[menu.nav]]
+name = "About"
+url = "/about/"
+weight = 3
+
+
+
+[[menu.nav]]
+name = "Search"
+url = "/search/"
+weight = 4
+
+[[menu.link]]
+name = "RSS"
+url = "/index.xml"
+weight = 5
+
+
+## Side Menu
+[[menu.link]]
+name = "GitHub"
+url = "https://github.com/FIXME"
+weight = 1
+
+[[menu.link]]
+name = "Twitter"
+url = "https://twitter.com/dsrkafuu"
+weight = 2
+
+[[menu.link]]
+name = "PrimeHarbor"
+url = "https://primeharbor.com"
+weight = 3
+
+
+#
+# Final Stuff
+#
+[build]
+noJSConfigInAssets = true
+
+[security]
+enableInlineShortcodes = true

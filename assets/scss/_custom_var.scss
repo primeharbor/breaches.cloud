@@ -1,0 +1,26 @@
+$body-font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', 'Helvetica',
+  'Arial', 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans CN', 'Source Han Sans SC',
+  'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+$mono-font: 'Cascadia Code', 'SF Mono', 'Fira Code', 'Consolas', $body-font;
+$title-font: 'Product Sans', $body-font;
+$body-font-size: 16px;
+
+$light-color-primary: #80a2d3; // https://irocore.com/aofuji/
+$light-color-secondary: #8f82bc; // https://irocore.com/fujimurasaki/
+$light-color-focus: #3b469b; // https://irocore.com/aomurasaki/
+$light-color-mute: #9ea1a3; // https://irocore.com/suzu-iro/
+$light-color-font: #3f4551; // https://irocore.com/konnezu/
+$light-color-divider: #e5e2e4; // https://irocore.com/komachinezu/
+$light-color-bg: #fffffd; // https://irocore.com/shiro/
+$light-color-codebg: #f6f8fa; // GitHub
+
+$dark-color-primary: #3CB371; // Primary Links and Headings
+$dark-color-secondary: #008080; // Other Links - Author, tags, external links in page
+$dark-color-focus: #20B2AA; // Other Links when in focus
+// $dark-color-mute: #FF6347; // Metadata static
+// $dark-color-font: #c0c0c0; // Main text
+$dark-color-divider: #006633; // Dividing Lines, table alterate color
+// $dark-color-bg: #B8860B; // Background
+// $dark-color-codebg: #00FF7F; // code in backticks
+
+

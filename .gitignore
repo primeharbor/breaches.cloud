@@ -1,0 +1,6 @@
+.env/
+public/
+.DS_Store
+raw-headers/
+.hugo_build.lock
+Attic/*

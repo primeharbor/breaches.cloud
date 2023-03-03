@@ -1,0 +1,17 @@
+
+{{ if .Lastmod }}
+<span>Last Updated: {{ .Lastmod.Format "2006-01-02" }}</span>
+{{else}}
+<span>Last Updated: {{ .Date.Format "2006-01-02" }}</span>
+{{end}}
+
+{{ if .Params.author }}
+Author: &nbsp; <a href="{{ .Params.author_url }}" > {{ .Params.author }} </a>&nbsp;&nbsp;
+{{end}}
+
+{{ if .Site.Params.showWordCounter }}<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;{{ i18n "postMetaWordCount" .WordCount}}</span>{{ end }}
+
+{{ if .Site.Params.showReadTime }}<span><i class="iconfont icon-time-sharp"></i>&nbsp;{{ i18n "postMetaReadingTime" .ReadingTime }}</span>{{ end }}
+
+{{ if and (not .Params.tags) .Site.Params.hideNoTagList }}{{ else }}<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;{{ if .Params.tags }}{{ range .Params.tags }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;{{ end }}{{ else }}{{ i18n "postMetaNoTag" }}{{ end }}</span>{{ end }}
+

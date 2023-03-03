@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<!-- post main content -->
+<div class="post-content markdown-body">
+    {{ .Content }}
+    <span>Total Incidents: {{ len (where .Site.RegularPages "Type" "in" .Site.Params.incidents_section) }}</span>
+</div>
+
+<!-- archives range in all posts -->
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.incidents_section) 50 }}
+{{ range $paginator.Pages }}
+<div class="post">
+  <h3 class="post-item post-title-archive">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h3>
+  <div class="post-item post-meta-archive">
+    {{ partial "post-meta.html" . }}
+    Incident Dates: {{ .Params.incident_start_date }} to {{ .Params.incident_end_date }}
+    <br>Disclosure date: {{ .Params.disclosure_date }}
+    {{ if ne .Params.victim .Title }}
+      <br>Victim: {{ .Params.victim }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<!-- custom smart pagination -->
+{{- partial "pagination.html" (dict "context" . "pagi" $paginator) -}}
+
+{{ end }}

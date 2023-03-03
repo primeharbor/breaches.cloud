@@ -1,0 +1,12 @@
+<header>
+    <div class="container-lg clearfix">
+        <div class="col-12 header">
+            <a class="title-main" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            {{ with .Site.Params.subTitle }}
+            <span class="title-sub">{{ . }}</span>
+            {{ end }}
+            {{ partial "nav.html" . }}
+        </div>
+    </div>
+
+</header>

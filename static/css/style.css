@@ -1,0 +1,407 @@
+/* Override of Fuji
+--------------------------------------------------------------*/
+
+
+header.header {
+	padding: 1.75rem 1.5rem 1rem 1.5rem;
+}
+
+header.title-sub {
+	margin: 0 0.1rem;
+	display: block;
+	white-space: normal;
+	padding: 0rem 0rem 0.5rem 0rem;
+}
+
+
+/* Other random stuff
+--------------------------------------------------------------*/
+
+::selection {
+	background: #57ad68;
+	color: #fff;
+}
+
+/* Assistive text */
+.assistive-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+#main-nav a.assistive-text:active,#main-nav a.assistive-text:focus {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	color: #1982d1;
+	clip: auto !important;
+	font-size: 12px;
+	position: absolute;
+	text-decoration: underline;
+	top: 0;
+	left: 7.6%;
+}
+#main-nav li:hover > a,
+#main-nav ul ul :hover > a,
+#main-nav a:focus {
+  color: #fff;
+}
+/* clearfix hack */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* commented backslash */
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+/* =Menu (taken from the Travelify Theme on chrisfarris.com)
+--------------------------------------------------------------*/
+#main-nav {
+	border: 1px solid #439f55;
+	cursor: pointer;
+	background: #4d5158;
+	color: #fff;
+	position: relative;
+/*	padding: 0rem 0rem 10px 0rem;*/
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.2);
+/*	box-shadow: inset 0 1px 1px rgba(255,255,255,0.2);*/
+}
+#main-nav li {
+	float: left;
+	position: relative;
+	padding: 0rem 0rem 10px 0rem;
+	list-style: none;
+}
+#main-nav a {
+	color: #fff;
+	display: block;
+	float: left;
+	font-size: 14px;
+	padding: 10px 10px 10px 10px;
+	height: 32px;
+}
+#main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a {
+	background: #439f55;
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	color: #fff;
+}
+#main-nav ul ul {
+	text-shadow: none;
+}
+#main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus {
+	color: #439f55;
+}
+/* Dropdown */
+#main-nav ul li ul,
+#main-nav ul li:hover ul ul,
+#main-nav ul ul li:hover ul ul,
+#main-nav ul ul ul li:hover ul ul,
+#main-nav ul ul ul ul li:hover ul ul {
+	display: none;
+	z-index: 9999;
+}
+#main-nav ul li:hover ul,
+#main-nav ul ul li:hover ul,
+#main-nav ul ul ul li:hover ul,
+#main-nav ul ul ul ul li:hover ul,
+#main-nav ul ul ul ul ul li:hover ul  {
+	display: block;
+}
+#main-nav ul li ul {
+	position: absolute;
+	background-color: #fff;
+	border-bottom: 4px solid #439f55;
+	top: 40px;
+	left: 0px;
+	width: 190px;
+}
+#main-nav ul li ul li {
+	float: none;
+	border-bottom: 1px solid #EAEAEA;
+	border-left: 1px solid #EAEAEA;
+	border-right: 1px solid #EAEAEA;
+	padding: 0;
+}
+#main-nav ul li ul li a,
+#main-nav ul li.current-menu-item ul li a,
+#main-nav ul li ul li.current-menu-item a,
+#main-nav ul li.current_page_ancestor ul li a,
+#main-nav ul li.current-menu-ancestor ul li a,
+#main-nav ul li.current_page_item ul li a {
+	float: none;
+	line-height: 21px;
+	font-size: 13px;
+	font-weight: normal;
+	height: 100%;
+	padding: 6px 10px;
+	color: #777;
+	text-transform: capitalize;
+	background: #fff;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#main-nav ul li.current_page_item ul li a {
+	background: #fff;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#main-nav ul li.current_page_item a {
+	border: none;
+}
+#main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover {
+	background-color: #F9F9F9;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #439f55;
+}
+#main-nav ul li ul li ul {
+	left: 188px;
+	top: 0px;
+}
+#main-nav select {
+	display: none;
+}
+.main-nav li.default-menu {
+  display: none;
+}
+
+
+/* =Responsive Structure
+-----------------------------------------------*/
+/* All Tablet Portrait size smaller than standard 1079 (devices and browsers) */
+@media only screen and (max-width: 1078px) {
+	.wrapper {
+		width: 95%;
+	}
+	#site-title a img {
+		max-width: 668px;
+	}
+	.no-sidebar-template #content {
+		margin: 0;
+		width: 100%;
+	}
+	#site-logo {
+		margin-left: 20px;
+	}
+	.page-title {
+		padding-left: 30px;
+	}
+	/* Column */
+	.column {
+		margin-left: -2.99%;
+	}
+	.one-half,.one-third,.one-fourth {
+		margin: 0 0 0 2.90%;
+	}
+	.one-third,.one-fourth {
+		width: 30.43%;
+	}
+	.widget_service .one-third,.widget_service .one-fourth {
+		width: 47.02%;
+	}
+	#footerarea .widget_info,#footerarea .widget_text {
+		margin-bottom: 30px;
+	}
+}
+
+/* All Mobile Portrait size smaller than 768 (devices and browsers) */
+@media only screen and (max-width: 767px) {
+	hr {
+		margin-bottom: 30px;
+	}
+	input[type="text"],input[type="password"],textarea,input[type="reset"],input[type="button"],input[type="submit"] {
+		margin-bottom: 20px;
+	}
+	input.s {
+		margin: 0;
+	}
+	input.s:focus {
+		width: 235px;
+	}
+	#primary,
+	#secondary,
+	#content-woocommerce,
+	#footerarea .col-3  {
+		float: none;
+		margin-left: 0;
+		width: auto;
+	}
+	.left-sidebar-template #primary,
+	.left-sidebar-template #content-woocommerce {
+		float: none;
+	}
+	.featured-title,.featured-content,.featured-text {
+		display: none;
+	}
+	.one-column-template .container,.container {
+		width: auto;
+	}
+	.comments-title,#respond h3#reply-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	#content h1,#content h2,#content h3,#content h4,#content h5,#content h6 {
+		padding-bottom: 10px;
+	}
+	#branding {
+		margin-top: 15px;
+	}
+	.hgroup-wrap {
+		padding-bottom: 25px;
+		padding-top: 0;
+	}
+	.hgroup-right {
+		margin-top: 32px;
+	}
+	.hgroup-right .social-icons {
+		display: none;
+	}
+	#site-logo {
+		margin-top: 25px;
+	}
+	#site-title a img {
+		max-width: 280px;
+	}
+	#main-nav {
+		height: 36px;
+		padding: 13px 0 0;
+	}
+	#main-nav ul {
+		display: none;
+	}
+	#main-nav select {
+		display: block;
+		width: 100%;
+		border: none;
+		font: 14px 'Ubuntu', sans-serif;
+		color: #555;
+		height: 24px;
+	}
+	.page-title-wrap {
+		padding: 10px 0;
+	}
+	.breadcrumb {
+		margin-top: 0px;
+		float: none;
+		text-align: left;
+	}
+	#main {
+		padding-top: 40px;
+	}
+	.post-featured-image {
+		margin-bottom: 5px;
+	}
+	.entry-content {
+		padding-bottom: 0px;
+	}
+	/* Column */
+	.column {
+		margin-left: 0;
+	}
+	.one-half,.one-third,.one-fourth,.widget_service .one-half,.widget_service .one-third,.widget_service .one-fourth {
+		margin: 0;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	#content .post {
+		padding-bottom: 30px;
+	}
+	#primary {
+		max-width: 100%;
+	}
+	.widget_search input.s,.widget_search input.s:focus {
+		width: 100%;
+	}
+	#wp_page_numbers,.wp-pagenavi,#content ul.default-wp-page,.pagination {
+		margin-bottom: 30px;
+	}
+	#wp_page_numbers ul li.page_info,.wp-pagenavi .pages {
+		display: none;
+	}
+	.wp-caption {
+		margin-bottom: 15px;
+	}
+	.widget {
+		margin-bottom: 30px;
+	}
+	.widget_custom-tagcloud {
+		margin-bottom: 22px;
+	}
+	.widget_article {
+		margin-bottom: 10px;
+	}
+	.widget_service {
+		margin-bottom: 0;
+	}
+	.widget_recent_work {
+		margin-bottom: 10px;
+	}
+	.widget_testimonial .testimonial-icon {
+		float: none;
+		margin-bottom: 15px;
+	}
+	#site-generator .social-icons,#site-generator .copyright {
+		float: none;
+		width: 100%;
+	}
+	#site-generator .social-icons ul {
+		text-align: center;
+		float: none;
+	}
+	#site-generator .social-icons ul li {
+		display: inline-block;
+		float: none;
+	}
+	#site-generator .copyright {
+		padding-top: 10px;
+		text-align: center;
+	}
+	.footer-right {
+		text-align: center;
+		float: none;
+	}
+}
+
+
+/* JCF Customizations
+   Taken from: http://www.ebadf.net/2016/10/19/centering-images-in-hugo/
+-----------------------------------------------*/
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}

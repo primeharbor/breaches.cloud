@@ -1,0 +1,18 @@
+<footer>
+    <div class="container-lg clearfix">
+        <div class="col-12 footer">
+            {{ if .Site.Params.showLicenseInFooter }}
+            <p>
+                {{ i18n "postCopyrightFront" }}<br><a rel="license" href="{{ .Site.Params.licenseLink }}" target="_blank">{{ .Site.Params.license }}</a>{{ i18n "postCopyrightEnd" }}
+            </p>
+            {{ end }}
+            <span>&copy; {{ with .Site.Params.copyrightStartYear }}{{ . }}-{{ end }}{{ now.Format "2006" }}
+                <a href="{{ .Site.Params.author_url }}">{{ .Site.Params.author }}</a>
+                {{ with .Site.Params.sourceURL }} | <a href="{{ . }}">Contribute!</a> {{ end }}
+                | Powered by <a href="https://gohugo.io/"target="_blank">Hugo</a> and AWS
+                | Theme based on <a href="https://github.com/dsrkafuu/hugo-theme-fuji/"
+                   target="_blank">Fuji-v2</a>
+            </span>
+        </div>
+    </div>
+</footer>

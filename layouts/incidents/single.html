@@ -1,0 +1,56 @@
+{{ define "main" }}
+<article>
+    <!-- post meta -->
+    <h2 class="post-item post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+
+    <div class="post-item post-meta">
+        <span>Date Created: {{ .Date.Format  "2006-01-02" }}</span>
+
+        {{- if ne .Date .Lastmod }}
+        <span>Last Updated: {{ .Lastmod.Format "2006-01-02" }}</span>
+        {{ end }}
+
+        {{ if .Params.author }}
+        Post Author: <a href="{{ .Params.author_url }}" > {{ .Params.author }} </a>&nbsp;&nbsp;
+        {{end}}
+    </div>
+
+    <div class="post-item post-meta">
+        {{ if and (not .Params.tags) .Site.Params.hideNoTagList }}{{ else }}<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;{{ if .Params.tags }}{{ range .Params.tags }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;{{ end }}{{ else }}{{ i18n "postMetaNoTag" }}{{ end }}</span>{{ end }}
+    </div>
+
+    <div class="post-content markdown-body">
+        <h2>Incident Details</h2>
+        <table>
+            <tr><td><b>Victimized Company:</b></td><td>{{ .Params.victim }}</td></tr>
+            <tr><td><b>Incident Dates:</b></td><td>{{ .Params.incident_start_date }} to {{ .Params.incident_end_date }}</td></tr>
+            <tr><td><b>Disclosure Date:</b></td><td>{{ .Params.disclosure_date }}</td></tr>
+            <tr><td><b>Current Status:</b></td><td>{{ .Params.final_status }}</td></tr>
+
+        </table>
+    </div>
+
+    <!-- post main content -->
+    <div class="post-content markdown-body">
+        {{ .Content }}
+    </div>
+</article>
+<!-- post license -->
+{{ if and (or .Site.Params.showLicense .Params.showLicense) (ne .Params.showLicense false) }}
+<div class="license markdown-body">
+    <blockquote>
+        <p>{{ i18n "postCopyrightFront" }}<a rel="license" href="{{ .Site.Params.licenseLink }}"
+               target="_blank">{{ .Site.Params.license }}</a>{{ i18n "postCopyrightEnd" }}</p>
+    </blockquote>
+</div>
+{{ end }}
+{{ if and (.Site.Params.disqusJSApi) (ne .Params.showComments false) }}
+{{ partial "comment-disqusjs.html" . }}
+{{ else if and (.Site.Params.disqusShortname) (ne .Params.showComments false) }}
+{{ partial "comment-disqus.html" . }}
+{{ else if and (.Site.Params.utterancesRepo) (ne .Params.showComments false) }}
+{{ partial "comment-utterances.html" . }}
+{{ else }}{{ end }}
+{{ end }}
