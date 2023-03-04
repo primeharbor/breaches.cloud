@@ -23,8 +23,13 @@ incident:
 post:
 	hugox new news/$(slug).md
 
+# Create Using the main config, all current and future posts, but nothing in draft
 main:
 	hugox -F
 
+# Create Using the preview config, all current and future posts, both published & in draft
 preview:
-	hugox -F --config preview-config.toml
+	hugox -FD --config preview-config.toml
+
+force-build:
+	git commit -m "Force Build" --allow-empty && git push
