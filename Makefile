@@ -4,7 +4,7 @@ clean:
 
 test:
 	open http://localhost:1313
-	hugox server -FD
+	hugox server -F
 
 test-preview:
 	open http://localhost:1313
@@ -16,3 +16,9 @@ incident:
 
 post:
 	hugox new news/$(slug).md
+
+main:
+	hugox -F
+
+preview:
+	hugox -F --config preview-config.toml
