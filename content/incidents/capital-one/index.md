@@ -3,7 +3,7 @@ title: "Capital One Hack"
 date: 2023-03-02T10:49:23-05:00
 lastmod: 2023-04-01T10:49:23-05:00
 # draft: true
-description: "Update this with a social media synopsis"
+# description: "Technical analysis of the 2019 Capital One Hack"
 tags: ["AWS", "SSRF", "FinTech", "IMDSv1"]
 showToc: true
 # author: "Donald Trump"
