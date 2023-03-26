@@ -5,16 +5,19 @@
 # Download and install for your architecture and place the binary in your path with the name hugox (
 # so as not to conflict with base hugo)
 
+PORT=1315
+
+
 clean:
 	rm -rf hugo/public/*
 
 test:
-	open http://localhost:1313
-	hugox server -F
+	open http://localhost:$(PORT)
+	hugox server -F -p $(PORT)
 
 test-preview:
-	open http://localhost:1313
-	hugox server -FD --config preview-config.toml
+	open http://localhost:$(PORT)
+	hugox server -FD --config preview-config.toml -p $(PORT)
 
 incident:
 	mkdir content/incidents/$(slug)
