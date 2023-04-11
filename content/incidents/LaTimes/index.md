@@ -1,25 +1,25 @@
 ---
 title: "LA Times Cryptomining"
-date: 2023-04-11T13:28:36-04:00
+date: 2023-04
 
-description: "Update this with a social media and SEO synopsis"
+description: "A Cloud Security focused analysis of the LA Times Cryptomining incident in 2018"
 
 # Set to false before publishing
 # draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["REPLACE THIS WITH VALID TAGS"]
+tags: ["AWS, S3, Public-Bucket"]
 
 showToc: true # Do not change
-author: "Donald Trump"
-author_url: "https://www.cnn.com/"
+author: "Juan Rodriguez-Cardenas"
+author_url: "https://github.com/seraphjrc"
 
 # These details are used to populate the Incident Index page.
-victim: "Capital One"
-incident_start_date: 2023-03-01
-incident_end_date: 2023-03-02
-disclosure_date: 2023-03-01
-final_status: "Perpetrator Plead Guilty"
+victim: "The Los Angeles Times"
+incident_start_date: 2018-02-09
+incident_end_date: 2018-02-22
+disclosure_date: 2018-02-21
+final_status: "Threat Actor Unknown"
 
 ---
 
