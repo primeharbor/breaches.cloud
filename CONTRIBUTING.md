@@ -38,7 +38,7 @@ You should have a functioning copy of the breaches.cloud site.
 
 To create a new page for a new incident run:
 ```bash
-make incident slug=INCIDENT_NAME
+make incident name=INCIDENT_NAME
 ```
 You will find the new files under `content/incidents/INCIDENT_NAME`
 

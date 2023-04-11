@@ -20,8 +20,8 @@ test-preview:
 	hugox server -FD --config preview-config.toml -p $(PORT)
 
 incident:
-	mkdir content/incidents/$(slug)
-	hugox new incidents/$(slug)/index.md
+	mkdir content/incidents/$(name)
+	hugox new incidents/$(name)/index.md
 
 post:
 	hugox new news/$(slug).md
