@@ -1,6 +1,31 @@
+---
+title: "Ubiquiti"
+date: 2023-04-13T14:38:46-04:00
+
+description: "Update this with a social media and SEO synopsis"
+
+# Set to false before publishing
+draft: true
+
+# This is not used for SEO, but allows users on the site to view incidents by keyword
+tags: ["REPLACE THIS WITH VALID TAGS"]
+
+showToc: true # Do not change
+author: "Donald Trump"
+author_url: "https://www.cnn.com/"
+
+# These details are used to populate the Incident Index page.
+victim: "Capital One"
+incident_start_date: 2023-03-01
+incident_end_date: 2023-03-02
+disclosure_date: 2023-03-01
+final_status: "Perpetrator Plead Guilty"
+
+---
+
 In December of 2021, Ubiquiti suffered a breach at the hands of an employee. This employee masked his presence via a VPN and was able to clone the company's GitHub repository and alter logs in AWS to hide their presence and evidence of the breach. After the attacker leaked details of the attack to a well-known security blogger, Ubiquiti's stock lost 4 billion dollars in value.
 
-
+<!--more-->
 
 ## Incident
 
