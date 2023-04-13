@@ -1,6 +1,6 @@
 In December of 2021, Ubiquiti suffered a breach at the hands of an employee. This employee masked his presence via a VPN and was able to clone the company's GitHub repository and alter logs in AWS to hide their presence and evidence of the breach. After the attacker leaked details of the attack to a well-known security blogger, Ubiquiti's stock lost 4 billion dollars in value.
 
-\<!--more--\> 
+
 
 ## Incident
 
