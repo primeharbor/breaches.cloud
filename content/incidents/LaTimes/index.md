@@ -51,11 +51,11 @@ The threat group has never been identified or disclosed.
 
 ## Summary of Coverage
 
-Urlscan.io: [The tool used to discover the Coinhive Code](https://urlscan.io/) - February 21, 2018 \
-Bad Packets Report: [Original Tweet report by Troy Mursch](http://web.archive.org/web/20190727220916/https://twitter.com/bad_packets/status/966368819722596353) - February 21, 2018 \
-Threat Post: [Interview with Security Researcher who discovered the Code](https://threatpost.com/cryptojacking-attack-found-on-los-angeles-times-website/130041/) - February 22, 2018 \
-RegMedia: [The injected code found on The Los Angeles Times Website](https://regmedia.co.uk/2018/02/22/la_times_bad_code.png?x=648&y=244&infer_y=1) - February 22, 2018 \
-The Register: [LA Times homicide site hacked to mine crypto-coins on netizens' PCs](https://www.theregister.com/2018/02/22/la_times_amazon_aws_s3/) - February 22, 2018
+* Urlscan.io: [The tool used to discover the Coinhive Code](https://urlscan.io/) - February 21, 2018 \
+* Bad Packets Report: [Original Tweet report by Troy Mursch](http://web.archive.org/web/20190727220916/https://twitter.com/bad_packets/status/966368819722596353) - February 21, 2018 \
+* Threat Post: [Interview with Security Researcher who discovered the Code](https://threatpost.com/cryptojacking-attack-found-on-los-angeles-times-website/130041/) - February 22, 2018 \
+* RegMedia: [The injected code found on The Los Angeles Times Website](https://regmedia.co.uk/2018/02/22/la_times_bad_code.png?x=648&y=244&infer_y=1) - February 22, 2018 \
+* The Register: [LA Times homicide site hacked to mine crypto-coins on netizens' PCs](https://www.theregister.com/2018/02/22/la_times_amazon_aws_s3/) - February 22, 2018
 
 ## Cloud Security lessons learned
 * The LA Times did not have a cloud security posture management (CSPM) tool in place or had not prioritized the remediation of findings.
