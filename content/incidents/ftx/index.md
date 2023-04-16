@@ -44,6 +44,10 @@ that billions of dollars of additional assets could be lost at any moment. (pg 4
 
 ### Attribution / Perpetrator
 
+Maybe related:
+https://www.coindesk.com/business/2022/11/14/ftx-hack-or-inside-job-blockchain-experts-examine-clues-and-a-stupid-mistake/
+
+
 ### Long-term impact
 
 ## Summary of coverage
@@ -51,6 +55,14 @@ that billions of dollars of additional assets could be lost at any moment. (pg 4
 * Source: [News Article Two](FIXME) Month, Day, Year
 * [Press Release](FIXME) Month, Day, Year
 * [Victim Blog Post 1](FIXME) Month, Day, Year
+
+https://restructuring.ra.kroll.com/FTX/
+https://dm.epiq11.com/case/ftx/info
+
+https://en.wikipedia.org/wiki/John_J._Ray_III
+https://www.coindesk.com/policy/2022/12/13/john-j-ray-iii-warned-not-to-obstruct-bahamas-ftx-probe-as-he-gives-testimony/
+
+https://www.coindesk.com/business/2022/11/12/ftx-crypto-wallets-see-mysterious-late-night-outflows-totalling-more-than-380m/
 
 ## Cloud Security Implications of this incident.
 
@@ -84,8 +96,7 @@ that billions of dollars of additional assets could be lost at any moment. (pg 4
 
 
 
-
-
+> You have filed a motion in the bankruptcy court seeking to keep the creditors list secret. This is highly unusual. According to the U.S. Supreme Court, the public has a First Amendment right to know what is going on in our court system, and secrecy of this kind can lead to cynicism about what might be happening behind closed doors. https://www.coindesk.com/consensus-magazine/2022/12/12/10-questions-for-ftx-ceo-john-j-ray-iii-from-a-securities-lawyer/
 
 
 
