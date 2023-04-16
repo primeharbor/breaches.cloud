@@ -2,10 +2,10 @@
 title: "Imperva RDS Snapshot"
 date: 2023-04-09T16:51:47-04:00
 
-description: "Update this with a social media and SEO synopsis"
+description: "A Cloud Security focused analysis of a data breach at Imperva in October 2018"
 
 # Set to false before publishing
-draft: true
+draft: false
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["AWS", "Public Snapshots", "Public Instance"]
