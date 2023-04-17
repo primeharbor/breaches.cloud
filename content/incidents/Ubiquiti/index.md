@@ -1,29 +1,30 @@
 ---
-title: "Ubiquiti"
+title: "Ubiquiti Insider Threat"
 date: 2023-04-13T14:38:46-04:00
 
-description: "Update this with a social media and SEO synopsis"
+description: "A Cloud Security focused analysis of the Ubiquiti breach in 2020"
 
 # Set to false before publishing
 draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["REPLACE THIS WITH VALID TAGS"]
+tags: ["AWS", "Insider Threat"]
 
 showToc: true # Do not change
-author: "Donald Trump"
-author_url: "https://www.cnn.com/"
+author: "Mark Gaddy"
+author_url: "https://github.com/TheFunky1Markimark"
+
 
 # These details are used to populate the Incident Index page.
-victim: "Capital One"
-incident_start_date: 2023-03-01
-incident_end_date: 2023-03-02
-disclosure_date: 2023-03-01
+victim: "Ubiquiti"
+incident_start_date: 2020-12-10
+incident_end_date: 2020-12-26
+disclosure_date: 2021-01-11
 final_status: "Perpetrator Plead Guilty"
 
 ---
 
-In December of 2021, Ubiquiti suffered a breach at the hands of an employee. This employee masked his presence via a VPN and was able to clone the company's GitHub repository and alter logs in AWS to hide their presence and evidence of the breach. After the attacker leaked details of the attack to a well-known security blogger, Ubiquiti's stock lost 4 billion dollars in value.
+In December of 2020, Ubiquiti suffered a breach at the hands of an employee. This employee masked his presence via a VPN and was able to clone the company's GitHub repository and alter logs in AWS to hide their presence and evidence of the breach. After the attacker leaked details of the attack to a well-known security blogger, Ubiquiti's stock lost 4 billion dollars in value.
 
 <!--more-->
 
@@ -31,7 +32,7 @@ In December of 2021, Ubiquiti suffered a breach at the hands of an employee. Thi
 
 ### Details of the Incident
 
-Beginning in December of 2021, a senior cloud engineer at Ubiquiti used his employee credentials to exfiltrate source code and customer information. Before starting the data exfiltration, the employee validated the credentials from his home network. Then shortly after successfully testing the credentials, he turned on a VPN to mask his IP address, logged into the company's Github account, and began cloning repositories to his local machine.
+Beginning in December of 2020, a senior cloud engineer at Ubiquiti used his employee credentials to exfiltrate source code and customer information. Before starting the data exfiltration, the employee validated the credentials from his home network. Then shortly after successfully testing the credentials, he turned on a VPN to mask his IP address, logged into the company's Github account, and began cloning repositories to his local machine.
 
 While cloning the repositories with sensitive information, the attacker's internet connection and VPN dropped. As a result, for around 30 minutes, the employee was cloning the repositories using his residence IP.
 
