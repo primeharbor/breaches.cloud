@@ -34,7 +34,7 @@ In April 2018, Chegg allowed a former contractor to retain access to their AWS A
 ### Timeline
 **April 29, 2018** - A former contractor accessed one of Chegg’s AWS S3 buckets using Root Credentials. \
 **April 29th, 2018** - According to an FTC complaint, the former contractor exfiltrated a database containing the personal information of approximately 40 million users of the Chegg platform.\
-**September 19th, 2018** - Chegg is informed that exfiltrated data has been found in an online forum[^1]. Upon additional investigation, Chegg discovers over 25 million user passwords from the exfiltrated files had been cracked.\
+**September 19th, 2018** - Chegg is informed that exfiltrated data has been found in an online forum [^1]. Upon additional investigation, Chegg discovers over 25 million user passwords from the exfiltrated files had been cracked.\
 **September 25th, 2018** - Chegg [notifies the SEC](https://www.sec.gov/Archives/edgar/data/1364954/000136495418000187/cyrus.htm) of the breach. \
 **September 26th, 2018** - Chegg [notifies the public](https://oag.ca.gov/system/files/California%20-%20Notice%20Letter%20to%20Consumers_0.PDF) and its users of the data breach.\
 **September 28th, 2018** - Chegg required over 40 million users to reset their passwords.\
@@ -69,3 +69,8 @@ FTC: [Official Press Release ](https://www.ftc.gov/news-events/news/press-releas
 * Chegg did not use IAM for access to their customer data in S3, instead, they used the root account which has been[ against AWS best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html) for several years prior to the Chegg breach. 
 * Chegg did not require MFA on the root AWS account.
 * Chegg "failed to adequately monitor its networks and systems for unauthorized attempts to transfer or exfiltrate users’ and employees’ personal information".
+
+
+<!-- Footnotes themselves at the bottom. -->
+
+[^1]: [FTC Complaint](https://www.ftc.gov/system/files/ftc_gov/pdf/2023151-Chegg-Complaint.pdf)
