@@ -2,10 +2,7 @@
 title: "FTX Bankruptcy"
 date: 2023-04-16T10:35:11-04:00
 
-description: "Update this with a social media and SEO synopsis"
-
-# Set to false before publishing
-draft: true
+description: "An analysis of FTX's cloud security practices leading up to their bankruptcy"
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["AWS", "MultiAccount", "Secrets"]
@@ -15,16 +12,15 @@ author: "Chris Farris"
 author_url: "https://www.chrisfarris.com/"
 
 # These details are used to populate the Incident Index page.
-victim: "FTX's Depositors"
-incident_start_date: 2023-03-01
-incident_end_date: 2023-03-02
-disclosure_date: 2023-03-01
-final_status: "Perpetrator Plead Guilty"
+victim: "FTX & it's creditors"
+incident_start_date: 2022-11-11
+incident_end_date: 2022-11-12
+disclosure_date: 2022-11-11
+final_status: "Most of the FTX funds have not been recovered. Forensic analysis of FTX is ongoing."
 
 ---
 
-
-FTX, a crypto-currency exchange found itself in bankruptcy. At the moment of transition of leadership, over $400 million in crypto-currency was transferred out of FTX's wallets. During the unwinding process, the FTX trustee management discovered a number of poor cloud practices.
+FTX, a crypto-currency exchange, found itself in bankruptcy. At the moment of the leadership transition, over $400 million in crypto-currency was transferred from FTX's wallets. The FTX trustee management discovered many poor cloud practices during the unwinding process.
 
 <!--more--> <!-- This separates the synopsis from the main body -->
 
@@ -32,31 +28,29 @@ FTX, a crypto-currency exchange found itself in bankruptcy. At the moment of tra
 
 ### Details of the Incident
 
-After a liquidity crisis, [FTX is forced into Chapter 11 bankruptcy](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX) and the United States Bankruptcy Court for the District of Delaware appoints new management. During the chaos of the crisis, new management, and the departure of the founders, an unknown party or parties transfer more than $400M of different crypto currencies out of FTX control. This is subsequently referred to in court filings as the "November 2022 Breach". As [stated]((FirstInterimReport.pdf)) by the new CEO in April:
+After a liquidity crisis, [FTX is forced into Chapter 11 bankruptcy](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX), and the United States Bankruptcy Court for the District of Delaware appoints new management. During the chaos of the crisis, new management, and the founders' departure, an unknown party or parties transfer more than $400M of different cryptocurrencies out of FTX's control. This is subsequently referred to in court filings as the "November 2022 Breach". As [stated]((FirstInterimReport.pdf)) by the new CEO in April:
 > The Debtors took over responsibility for a computing environment that had been compromised. A malicious actor had just drained approximately $432 million worth of crypto assets in hours; the FTX Group did not have the controls to detect the compromise, much less to stop it; and due to the FTX Group’s deficient controls to secure crypto assets, the Debtors faced the threat that billions of dollars of additional assets could be lost at any moment. (pg 42)
 
-The new management, supported by a number of law firms, [Kroll](https://www.kroll.com/en, [Chainalysis](https://www.chainalysis.com/), and [Sygnia](https://www.coindesk.com/policy/2023/02/06/ftx-being-advised-by-cybersecurity-firm-sygnia-on-hack-inquiry-ceo-ray-says/) were tasked with finding the assets of FTX and 138 associated companies, identifying the creditors, and securing the FTX cloud environment.
+The new management, supported by a number of law firms, [Kroll](https://www.kroll.com/en), [Chainalysis](https://www.chainalysis.com/), and [Sygnia](https://www.coindesk.com/policy/2023/02/06/ftx-being-advised-by-cybersecurity-firm-sygnia-on-hack-inquiry-ceo-ray-says/) were tasked with finding the assets of FTX and 138 associated companies, identifying the creditors, and securing the FTX cloud environment.
 
 ### Timeline
 
-**November 2nd, 2022** - [Questions](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) start to be raised about the balance sheet of one FTX-related company Alameda Research.
-**November 11th, 2022** - FTX Officially files for Chapter 11 Bankruptcy, founder Sam Bankman-Fried resigned at CEO ; John Ray appointed new CEO by the United States Bankruptcy Court of the District of Delaware.\
-**November 11th, 2022** - Reports of unauthorized transactions surface in the crypto-currency community. [Employees of FTX acknowledge](https://www.coindesk.com/business/2022/11/12/ftx-crypto-wallets-see-mysterious-late-night-outflows-totalling-more-than-380m/) a potential compromise and urge customers not to use the platform
+**November 2nd, 2022** - [Questions](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) start to be raised about the balance sheet of one FTX-related company Alameda Research.\
+**November 11th, 2022** - FTX Officially files for Chapter 11 Bankruptcy, founder Sam Bankman-Fried resigned as CEO ; John Ray appointed new CEO by the United States Bankruptcy Court of the District of Delaware.\
+**November 11th, 2022** - Reports of unauthorized transactions surface in the crypto-currency community. [Employees of FTX acknowledge](https://www.coindesk.com/business/2022/11/12/ftx-crypto-wallets-see-mysterious-late-night-outflows-totalling-more-than-380m/) a potential compromise and urge customers not to use the platform\
 **November 12th, 2022** - FTX's new management [acknowledges](https://www.cnbc.com/2022/11/12/ftx-says-it-is-investigating-unauthorized-transactions.html) unauthorized transfers of crypto-currency and begins to move funds to off-line (cold) wallets.\
-**November 17th, 2022** - John Ray files an [initial statement](Nov17Filing.pdf) with the Bankruptcy Court stating "Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here."\
-**April 9th, 2023** - FTX publishes "[FIRST INTERIM REPORT OF JOHN J. RAY III TO THE INDEPENDENT DIRECTORS ON CONTROL FAILURES AT THE FTX EXCHANGES](FirstInterimReport.pdf)" which outlines the bulk of the cloud security issues documented here.
+**November 17th, 2022** - John Ray files an [initial statement](Nov17Filing.pdf) with the Bankruptcy Court stating, "Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here."\
+**April 9th, 2023** - FTX publishes "[First Interim Report of John J. Ray III to The Independent Directors on Control Failures at the FTX Exchanges](FirstInterimReport.pdf)," which outlines the bulk of the cloud security issues documented here.
 
 ### Attribution / Perpetrator
 
-The identity of the perpetrator of the "November 2022 Breach" has not been identified. Sam Bankman-Fried has been [indicted](https://www.justice.gov/usao-sdny/press-release/file/1557571/download) on multiple counts related to his management of the FTX companies. A number of other senior-level employees of the company, including Bankman-Fried's co-founders are cooperating with the Department of Justice.
+The identity of the perpetrator of the *"November 2022 Breach"* has not been identified. However, Sam Bankman-Fried has been [indicted](https://www.justice.gov/usao-sdny/press-release/file/1557571/download) on multiple counts related to his management of the FTX companies. A number of other senior-level employees of the company, including Bankman-Fried's co-founders, are cooperating with the Department of Justice.
 
-### Long-term impact
 
 ## Summary of coverage & other resources
 
-* Kroll: [FTX Trading Ltd](https://restructuring.ra.kroll.com/FTX/) Restructuring main site.
+* Kroll: [FTX Trading Ltd](https://restructuring.ra.kroll.com/FTX/) - The restructuring main site.
 * DOJ Office of the United States Trustee: [FTX Trading Official Committee of Unsecured Creditors](https://dm.epiq11.com/case/ftx/info)
-
 * CoinDesk: [Divisions in Sam Bankman-Fried’s Crypto Empire Blur on His Trading Titan Alameda’s Balance Sheet](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) - November 2nd, 2022
 * CoinDesk: [FTX Has Been Hacked: Crypto Disaster Worsens as Exchange Sees Mysterious Outflows Exceeding $600M](https://www.coindesk.com/business/2022/11/12/ftx-crypto-wallets-see-mysterious-late-night-outflows-totalling-more-than-380m/) - November 11th, 2022
 * CoinDesk: [FTX Hack or Inside Job? Blockchain Experts Examine Clues and a ‘Stupid Mistake’](https://www.coindesk.com/business/2022/11/14/ftx-hack-or-inside-job-blockchain-experts-examine-clues-and-a-stupid-mistake/) - November 14th, 2022
@@ -73,8 +67,8 @@ The identity of the perpetrator of the "November 2022 Breach" has not been ident
 
 The following Cloud Security lessons come primarily from John J. Ray III's [First Interim Report](FirstInterimReport.pdf), and are cited by page number.
 
-1. MultiAccount Strategy - FTX primarily kept all private keys in the same AWS account with a number of compute workloads
-	> "the FTX exchanges and Alameda used a single, shared AWS account, meaning that a compromise of that AWS account would expose all three entities’ assets to misuse or theft."" (pg 37)
+1. MultiAccount Strategy - FTX primarily kept all private keys in the same AWS account with over a thousand compute workloads
+	> "the FTX exchanges and Alameda used a single, shared AWS account, meaning that a compromise of that AWS account would expose all three entities’ assets to misuse or theft." (pg 37)
 
 	> "The FTX Group stored the private keys to its crypto assets in its cloud computing environment, which included over one thousand servers and related system architecture, services, and databases that it leased from Amazon Web Services." (pg 24)
 
@@ -83,7 +77,7 @@ The following Cloud Security lessons come primarily from John J. Ray III's [Firs
 2. Wallet Keys stored in Secrets Manager
 	> "private keys to billions of dollars in crypto assets were stored in AWS Secrets Manager ... any of the many FTX Group employees who had access to AWS Secrets Manager or the password vault could access certain of the keys and unilaterally transfer the corresponding assets." (pg 28)
 
-	> Footnote: In the infrequent instances in which the FTX Group stored private keys in encrypted form, it stored the decryption key in AWS Secrets Manager and not in a protected form, such as HSM. As a result, the decryption keys could easily be retrieved by an unauthorized actor, thereby dramatically reducing the value of encryption (pg 28)
+	> Footnote: "In the infrequent instances in which the FTX Group stored private keys in encrypted form, it stored the decryption key in AWS Secrets Manager and not in a protected form, such as HSM. As a result, the decryption keys could easily be retrieved by an unauthorized actor, thereby dramatically reducing the value of encryption" (pg 28)
 
 3. Secrets Mismanagement
 	> "the passwords for encrypting the private keys of wallet nodes were stored in plain text, committed to the code repository..., and reused across different wallet nodes such that if one were compromised, every other node with the same password could be compromised as well. Furthermore, wallet node servers were not securely segregated from connected servers such that anyone who compromised the FTX Group’s computing environment could potentially compromise its wallet nodes. (pg 29-30)
@@ -99,10 +93,3 @@ The following Cloud Security lessons come primarily from John J. Ray III's [Firs
 	> "The FTX Group similarly failed to institute any basic mechanism to be alerted to any “root” login to its AWS account" (pg 34)
 
 	> "For example, Amazon GuardDuty, an AWS feature that supports threat detection, was not enabled at all on FTX.com, and across the entities, VPC flow logs that can capture IP traffic information were only enabled to log the rejected traffic (and only in some networks)—they were not enabled to log the permitted traffic at all. The lack of these and other logs complicated the Debtors’ investigation of the November 2022 Breach." (Footnote 36, pg 34)
-
-
-
-
-
-
-
