@@ -46,7 +46,7 @@ In April 2018, Chegg allowed a former contractor to retain access to their AWS A
 
 ### Attribution / Perpetrator
 
-According to Chegg inc, the one responsible is a former contractor whose identity has not been disclosed.
+According to the FTC, an unnamed former contractor was responsible for using the root credentials to access the personal information.
 
 ### Long-term impact
 
