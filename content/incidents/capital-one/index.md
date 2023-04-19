@@ -3,7 +3,7 @@ title: "Capital One Hack"
 date: 2023-03-02T10:49:23-05:00
 lastmod: 2023-04-01T10:49:23-05:00
 # draft: true
-description: "Update this with a social media synopsis"
+# description: "Technical analysis of the 2019 Capital One Hack"
 tags: ["AWS", "SSRF", "FinTech", "IMDSv1"]
 showToc: true
 # author: "Donald Trump"
@@ -50,7 +50,7 @@ The Capital One breach was a large enough event that it triggered [Congressional
 * Seattle Times: [Ex-Amazon worker convicted in massive Capital One hack](https://www.seattletimes.com/business/ex-amazon-worker-convicted-in-massive-capital-one-hack/) June 17, 2022
 * Seattle Times: [No prison for Seattle hacker behind Capital One $250M data](https://www.seattletimes.com/business/no-prison-for-seattle-hacker-behind-capital-one-250m-data-breach/) October 4th, 2022
 * Capital One: [Information on the Capital One cyber incident](https://www.capitalone.com/digital/facts2019/)
-
+* SeattleMet: [Clouded Judgment: How a Former Amazon Employee Hacked Capital One](https://www.seattlemet.com/news-and-city-life/2023/04/how-a-former-amazon-web-services-employee-hacked-capital-one-paige-thompson-seattle) Apr 4th, 2023
 
 ## Cloud Security Implications of this incident.
 

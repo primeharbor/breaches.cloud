@@ -1,5 +1,27 @@
 <aside class="col-12 col-md-3 float-left sidebar">
 
+    <!-- links -->
+    <div class="sidebar-item sidebar-links">
+        <h3>{{ i18n "sidebarLinks" }}</h3>
+        <ul>
+            {{ range .Site.Menus.link }}
+            <li>
+                <a href="{{ .URL }}" target="_blank"><span>{{ .Name }}</span></a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    <!-- tags -->
+    <div class="sidebar-item sidebar-tags">
+        <h3>{{ i18n "sidebarTags" }}</h3>
+        <div>
+            {{ range .Site.Taxonomies.tags }}
+            <span>
+                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+            </span>
+            {{ end }}
+        </div>
+    </div>
     <!-- in-post toc -->
     {{- if .IsPage -}}
     {{- $pageShowToc := .Params.showToc -}}
@@ -20,30 +42,4 @@
     </div>
     {{ end }}
     {{ end }}
-
-    <!-- tags -->
-    <div class="sidebar-item sidebar-tags">
-        <h3>{{ i18n "sidebarTags" }}</h3>
-        <div>
-            {{ range .Site.Taxonomies.tags }}
-            <span>
-                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-            </span>
-            {{ end }}
-        </div>
-    </div>
-
-    <!-- links -->
-    <div class="sidebar-item sidebar-links">
-        <h3>{{ i18n "sidebarLinks" }}</h3>
-        <ul>
-            {{ range .Site.Menus.link }}
-            <li>
-                <a href="{{ .URL }}" target="_blank"><span>{{ .Name }}</span></a>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-
-
 </aside>

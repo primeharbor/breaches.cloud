@@ -2,11 +2,15 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 
-draft: true
-description: "Update this with a social media synopsis"
-tags: ["REPLACE THIS WITH VALID TAGS"]
-showToc: true
+description: "Update this with a social media and SEO synopsis"
 
+# Set to false before publishing
+draft: true
+
+# This is not used for SEO, but allows users on the site to view incidents by keyword
+tags: ["REPLACE THIS WITH VALID TAGS"]
+
+showToc: true # Do not change
 author: "Donald Trump"
 author_url: "https://www.cnn.com/"
 
