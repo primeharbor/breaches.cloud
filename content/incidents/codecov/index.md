@@ -31,6 +31,8 @@ Form a brief synopsis of the incident. No more than two to three paragraphs.
 
 ### Details of the Incident
 
+### Timeline
+
 ### Attribution / Perpetrator
 
 ### Long-term impact
