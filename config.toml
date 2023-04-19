@@ -1,4 +1,4 @@
-baseURL = "https://breaches.cloud/"
+baseURL = "https://www.breaches.cloud/"
 title = "Public Cloud Security Breaches"
 
 theme = "fuji"
