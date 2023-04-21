@@ -24,11 +24,11 @@ final_status: "2014: Threat Actor Unknown 2016: Perpetrator's Pleaded Guilty"
 
 ---
 
-In 2014 and again in 2016, Uber suffered a data breach where attackers could access an unencrypted file containing sensitive user information. In both instances, the attackers used keys found in Uber's GitHub repositories. In 2014, the attacker found an access key in a public repository. In 2016, the attackers used stolen GitHub credentials to access an AWS key in an engineer's private repo.
+In 2014 and again in 2016, Uber suffered a data breach where attackers gained access an unencrypted file containing sensitive user information. In both instances, the attackers used keys found in Uber's GitHub repositories. In 2014, the attacker found an access key in a public repository. In 2016, the attackers used stolen GitHub credentials to access an AWS key in an engineer's private repo.
 
 Uber reported the 2014 incident to the Federal Trade Commission, which prompted an investigation into its security practices of Uber. As part of the 2016 incident, Uber's Chief Information Security Officer paid the attackers $100,000, supposedly as a bug bounty, to delete and not disclose the data. This incident is notable because the CISO, Joey Sullivan, was later convicted for not promptly notifying the Federal Authorities when the breach occurred. Uber was fined $148 million for concealing the breach.
 
-\<!--more--\>
+<!--more-->
 
 ## Incident
 
@@ -38,57 +38,40 @@ In recent years Uber suffered from 2 significant data breaches. One occurred in 
 
 In 2014, an attacker could access users' data in plain text in an Amazon S3 bucket. The attacker leveraged GitHub, finding an engineer who had posted an access key to a public GitHub repository. This access key allowed the attacker to access the company's Amazon S3 Buckets. The attacker downloaded a file containing sensitive information to over 100,000 users' names and driver's license numbers. They also downloaded 215 users' bank accounts and domestic routing numbers.
 
-In 2016, Uber was breached by two attackers who had gained access to an unencrypted S3 bucket containing personally identifiable information of over 57 million users. The attackers began by hiring a freelancer to write them a script that would ingest emails and passwords and attempt to log into GitHub. The script would then output if the login was valid and which organization the account belonged to. The two attackers then accessed Uber's GitHub account using this script. Next, they began looking for access keys to Uber's company servers. The attackers found an AWS key that granted them access to an S3 bucket containing sensitive data of 57 million users, including driver's license numbers and names associated with those accounts.
+In 2016, Uber was breached by two attackers who had gained access to an unencrypted S3 bucket containing personally identifiable information of over 57 million users. The attackers began by hiring a freelancer to write them a script that would ingest emails and passwords and attempt to log into GitHub. The script would then output if the login was valid and which organization the account belonged to. Seeing a high profile target like Uber in the results, the two attackers then accessed Uber's repos using these credentials. Next, they began looking for access keys to Uber's company servers. The attackers found an AWS key that granted them access to an S3 bucket containing sensitive data of 57 million users, including driver's license numbers and names associated with those accounts.
 
-The attackers then sent a ransom email to Chief Security Officer, Joey Sullivan, stating they had found a significant vulnerability and had access to Uber's database. Sullivan agreed to pay each hacker $50,000 to delete the data and not disclose the data breach. However, this payment was masked as a bug bounty, and Sullivan withheld information regarding the breach from other employees who were obligated to disclose it to the Federal Trade Commission.
+The attackers then sent a ransom email to Uber, stating they had found a significant vulnerability and had access to Uber's database. Sullivan agreed to pay each hacker $50,000 to delete the data and not disclose the data breach. However, this payment was masked as a bug bounty, and Sullivan withheld information regarding the breach from other employees who were obligated to disclose it to the Federal Trade Commission.
 
-Uber then identified the threat actors within the coming months and found how they got in through GitHub.
+By leveraging the bug-bounty process, Uber identified the threat actors and found how they got in through GitHub.
 
-Uber, at the time, was under investigation for a previous breach in 2014 by the FTC. In 2016 the FTC requested Uber to designate one or more officers to testify on behalf of the company on the company's security practices. Uber selected Joey Sullivan as their witness and, during his testimony, concealed details of the recent breach from the FTC. Uber approached the FTC to settle the investigation into the breach that occurred in 2014. During that time, Uber hired a new CEO, and Sullivan was asked to brief the CEO regarding the 2016 data breach and, at that time, omitted key details. Later the following year, the new CEO Dara Khosrowshahi released an open letter disclosing the breach and fired Sullivan for concealing the breach and paying the ransom. The FTC then announced they were reopening their investigation.
+As a result of the 2014 breach, Uber was under a consent decree with the FTC. In 2016 the FTC requested Uber to designate one or more officers to testify on behalf of the company on the company's security practices. Uber selected Joey Sullivan as their witness and, during his testimony, concealed details of the recent breach from the FTC. Uber approached the FTC to settle the investigation into the breach that occurred in 2014. During that time, Uber hired a new CEO, and Sullivan was asked to brief the CEO regarding the 2016 data breach and, at that time, omitted key details. Later the following year, the new CEO Dara Khosrowshahi released an open letter disclosing the breach and fired Sullivan for concealing the breach and paying the ransom. The FTC then announced they were reopening their investigation.
 
 The Department of Justice indicted Brandon Charles Glover and Vasile Mereacre. They both pleaded guilty to the attack and agreed to cooperate with authorities for a reduced sentence. Sullivan was later charged with one count of Obstruction and one count of Misprision of a Felony in 2020. Uber was fined for the incident 148 million dollars for concealing the breach.
 
 ### Timeline
 
-**May 12th, 2014** - An attacker accesses Uber's AWS server using an access key from an engineer's public GitHub repository. Using this access key, the attacker accessed an S3 bucket containing the data of over 60,000 users.
-
-**February 27th, 2015** - Uber releases a statement disclosing the 2014 incident.
-
-**April 27th, 2015** - Uber filed a John Doe lawsuit to expedite the investigation into the 2014 incident.
-
-**October 2016** - Attackers access Uber's GitHub using stolen credentials and find an access key to Uber servers hosted on AWS. Using this access key, the attackers could access an S3 bucket containing over 200 user data files.
-
-**November 14th, 2016** - Attackers sent a ransom email stating they exploited a significant vulnerability and gained access to Uber's database.
-
-**December 8th, 2016** - Uber authorizes a $100,000 payment to the attackers through HackerOne's bug bounty platform.
-
-**January 2017** - Uber identifies attackers behind the 2016 Breach as [Brandon Charles Glover and Vasile Mereacre](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)[.](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)
-
-**April 19th, 2017** - Uber sends a letter to the FTC to close its investigation stating the company had fully cooperated with the FTC and provided all responses necessary to investigators.
-
-**August 15th, 2017** - Uber and the FTC agree to a settlement regarding the previous 2014 data breach.
-
-**August 29th, 2017** - Uber names new CEO Dara Khosrowshahi.
-
-**November 21st, 2017** - Khosrowshahi released an open letter disclosing the 2016 breach, and later it was reported Sullivan was also fired.
-
-**April 12th, 2018** - The FTC reopens its investigation into Uber and withdraws the proposed settlement criticizing the company for concealing the breach.
-
-**August 2nd, 2018** - Grand jury indicts Brandon Charles Glover and Vasile Mereacre for a related breach of LinkedIn's parent company Lynda.com (now LinkedIn Learning).
-
-**September 26th, 2018** - Uber agrees to pay a 148 million dollar settlement for concealing the breach.
-
-**October 26th, 2018** - FTC provides and approves a revised settlement with Uber.
-
-**October 30th, 2019** - Glover and Mereacre plead guilty to the Uber data breach.
-
-**August 21st, 2020** - Sullivan is charged with one count of obstruction of justice and one count of Misprision of a Felony (i.e., knew that a federal felony had been committed and took affirmative steps to conceal that felony).
-
+**May 12th, 2014** - An attacker accesses Uber's AWS server using an access key from an engineer's public GitHub repository. Using this access key, the attacker accessed an S3 bucket containing the data of over 60,000 users.\
+**February 27th, 2015** - Uber [releases a statement](https://web.archive.org/web/20150227230058/http://blog.uber.com/2-27-15) disclosing the 2014 incident.\
+**April 27th, 2015** - Uber filed a John Doe lawsuit to expedite the investigation into the 2014 incident.\
+**October 2016** - Attackers access Uber's GitHub using stolen credentials and find an access key to Uber servers hosted on AWS. Using this access key, the attackers could access an S3 bucket containing over 200 user data files.\
+**November 14th, 2016** - Attackers sent a ransom email stating they exploited a significant vulnerability and gained access to Uber's database.\
+**December 8th, 2016** - Uber authorizes a $100,000 payment to the attackers through HackerOne's bug bounty platform.\
+**January 2017** - Uber identifies attackers behind the 2016 Breach as [Brandon Charles Glover and Vasile Mereacre](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)[.](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)\
+**April 19th, 2017** - Uber sends a letter to the FTC to close its investigation stating the company had fully cooperated with the FTC and provided all responses necessary to investigators.\
+**August 15th, 2017** - Uber and the FTC agree to a settlement regarding the previous 2014 data breach.\
+**August 29th, 2017** - Uber names new CEO Dara Khosrowshahi.\
+**November 21st, 2017** - Khosrowshahi released an open letter disclosing the 2016 breach, and later it was reported Sullivan was also fired.\
+**April 12th, 2018** - The FTC reopens its investigation into Uber and withdraws the proposed settlement criticizing the company for concealing the breach.\
+**August 2nd, 2018** - Grand jury indicts Brandon Charles Glover and Vasile Mereacre for a related breach of LinkedIn's parent company Lynda.com (now LinkedIn Learning).\
+**September 26th, 2018** - Uber agrees to pay a 148 million dollar settlement for concealing the breach.\
+**October 26th, 2018** - FTC provides and approves a revised settlement with Uber.\
+**October 30th, 2019** - Glover and Mereacre plead guilty to the Uber data breach.\
+**August 21st, 2020** - Sullivan is charged with one count of obstruction of justice and one count of Misprision of a Felony (i.e., knew that a federal felony had been committed and took affirmative steps to conceal that felony).\
 **October 5th, 2022** - Sullivan is found guilty of Obstruction of the FTC and Misprision of a felony.
 
 ### Attribution / Perpetrator
 
-Concerning the breach in 2014, No attacker has been named, but Uber did [file a "John Doe" lawsuit](https://casetext.com/case/uber-techs-inc-v-john-doe) to expedite investigating this breach with GitHub. The 2014 breach was reported to the FTC, which launched the initial investigation into Uber's security practices and policies.
+Concerning the breach in 2014, No attacker has been named, but Uber [filed a "John Doe" lawsuit](https://casetext.com/case/uber-techs-inc-v-john-doe) to expedite investigating this breach with GitHub.
 
 Per the [Department of Justice](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy) concerning the 2016 breach, "Brandon Charles Glover and Vasile Mereacre pleaded guilty in federal court today to their respective roles in an extortion conspiracy involving a plot to extract bounties from victim corporations in exchange for the defendant's promise to delete stolen confidential data."
 
@@ -102,7 +85,7 @@ The perpetrators of this Uber Breach were also responsible for a similar data th
 ## Summary of coverage
 
 - Uber: [Uber Statement for 2014 breach](https://web.archive.org/web/20150227230058/http://blog.uber.com/2-27-15) - February 27th, 2015
-- Casetext: [Uber Filing John Doe Case](https://casetext.com/case/uber-techs-inc-v-john-doe) (to identify the threat actor behind the 2014 breach)- April 27th, 2015
+- Casetext: [Uber Filing John Doe Case](https://casetext.com/case/uber-techs-inc-v-john-doe) (to identify the threat actor behind the 2014 breach) - April 27th, 2015
 - Bloomberg: [Uber concealed cyber attack that exposed 57 million people's data](https://web.archive.org/web/20210824171652/https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - November 21st, 2017
 - CourtListener: [United States v. Glover and Mereacre](https://storage.courtlistener.com/recap/gov.uscourts.cand.330179/gov.uscourts.cand.330179.1.0.pdf) - August 2nd, 2018
 - Computer Weekly: [Uber Fined 148m for data breach cover-up](https://www.computerweekly.com/news/252449446/Uber-fined-148m-for-data-breach-cover-up?_gl=1*wr5vp8*_ga*MTA5MDE1ODc2OC4xNjgwMDY3MDcw*_ga_TQKE4GS5P9*MTY4MTM2Mzc0OS4yLjEuMTY4MTM2NDEzNy4wLjAuMA..*_ga_RZDF13FDNT*MTY4MTM2Mzc1MC4yLjAuMTY4MTM2NDEzNy4wLjAuMA..*_ga_NLDTRJGG3Y*MTY4MTM2Mzc1MC4yLjAuMTY4MTM2NDEzNy4wLjAuMA..*_ga_H4TNQB84WS*MTY4MTM2Mzc1MC4yLjAuMTY4MTM2NDEzNy4wLjAuMA..*_ga_7FK328ZGNW*MTY4MTM2Mzc1MC4yLjAuMTY4MTM2NDEzNy4wLjAuMA..&_ga=2.257933131.1712761003.1681363750-1090158768.1680067070) - September 17th, 2018
