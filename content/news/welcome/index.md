@@ -32,7 +32,9 @@ Once we're done with the initial site, the [breaches.cloud](https://github.com/j
 
 ## What's next
 
-When we have a complete catalog, we want to sort and index the data to allow us to understand better which cloud security issues are responsible for what sort of incidents. For example, we may attempt to map to frameworks like MITRE ATT&CK or index the proximate causes by misconfiguration type.
+The next phase for us will be to purchase trial transcripts from [PACER](https://pacer.uscourts.gov/). While we have a [right to a speedy and public trial](https://www.law.cornell.edu/constitution/sixth_amendment#:~:text=The%20Sixth%20Amendment%20guarantees%20the,charges%20and%20evidence%20against%20you.) here in the United States, we apparently don't have a right to get a digital copy of court proceedings. As indicated in Ryan McGeehan's [excellent write-up](https://medium.com/starting-up-security/a-blameless-post-mortem-of-usa-v-joseph-sullivan-a137162f7fc9) of United States vs Sullivan, a lot of details about these cases come out at trial. These details are critical for uncovering how cloud breaches happen. 
+
+When we have a complete catalog with trial details, we want to sort and index the data to allow us to understand better which cloud security issues are responsible for what sort of incidents. For example, we may attempt to map to frameworks like MITRE ATT&CK or index the proximate causes by misconfiguration type.
 
 Our research may become a regular email newsletter if there is enough interest.
 
