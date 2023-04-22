@@ -50,24 +50,26 @@ The Department of Justice indicted Brandon Charles Glover and Vasile Mereacre. T
 
 ### Timeline
 
-**May 12th, 2014** - An attacker accesses Uber's AWS server using an access key from an engineer's public GitHub repository. Using this access key, the attacker accessed an S3 bucket containing the data of over 60,000 users.\
-**February 27th, 2015** - Uber [releases a statement](https://web.archive.org/web/20150227230058/http://blog.uber.com/2-27-15) disclosing the 2014 incident.\
-**April 27th, 2015** - Uber filed a John Doe lawsuit to expedite the investigation into the 2014 incident.\
-**October 2016** - Attackers access Uber's GitHub using stolen credentials and find an access key to Uber servers hosted on AWS. Using this access key, the attackers could access an S3 bucket containing over 200 user data files.\
-**November 14th, 2016** - Attackers sent a ransom email stating they exploited a significant vulnerability and gained access to Uber's database.\
-**December 8th, 2016** - Uber authorizes a $100,000 payment to the attackers through HackerOne's bug bounty platform.\
-**January 2017** - Uber identifies attackers behind the 2016 Breach as [Brandon Charles Glover and Vasile Mereacre](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)[.](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)\
-**April 19th, 2017** - Uber sends a letter to the FTC to close its investigation stating the company had fully cooperated with the FTC and provided all responses necessary to investigators.\
-**August 15th, 2017** - Uber and the FTC agree to a settlement regarding the previous 2014 data breach.\
-**August 29th, 2017** - Uber names new CEO Dara Khosrowshahi.\
-**November 21st, 2017** - Khosrowshahi released an open letter disclosing the 2016 breach, and later it was reported Sullivan was also fired.\
-**April 12th, 2018** - The FTC reopens its investigation into Uber and withdraws the proposed settlement criticizing the company for concealing the breach.\
-**August 2nd, 2018** - Grand jury indicts Brandon Charles Glover and Vasile Mereacre for a related breach of LinkedIn's parent company Lynda.com (now LinkedIn Learning).\
-**September 26th, 2018** - Uber agrees to pay a 148 million dollar settlement for concealing the breach.\
-**October 26th, 2018** - FTC provides and approves a revised settlement with Uber.\
-**October 30th, 2019** - Glover and Mereacre plead guilty to the Uber data breach.\
-**August 21st, 2020** - Sullivan is charged with one count of obstruction of justice and one count of Misprision of a Felony (i.e., knew that a federal felony had been committed and took affirmative steps to conceal that felony).\
-**October 5th, 2022** - Sullivan is found guilty of Obstruction of the FTC and Misprision of a felony.
+| Date | Event |
+| ------ | ----- |
+| **May&nbsp;12th,&nbsp;2014** | An attacker accesses Uber's AWS server using an access key from an engineer's public GitHub repository. Using this access key, the attacker accessed an S3 bucket containing the data of over 60,000 users. |
+| **February 27th, 2015** | Uber [releases a statement](https://web.archive.org/web/20150227230058/http://blog.uber.com/2-27-15) disclosing the 2014 incident. |
+| **April 27th, 2015** | Uber filed a John Doe lawsuit to expedite the investigation into the 2014 incident. |
+| **October 2016** | Attackers access Uber's GitHub using stolen credentials and find an access key to Uber servers hosted on AWS. Using this access key, the attackers could access an S3 bucket containing over 200 user data files. |
+| **November 14th, 2016** | Attackers sent a ransom email stating they exploited a significant vulnerability and gained access to Uber's database. |
+| **December 8th, 2016** | Uber authorizes a $100,000 payment to the attackers through HackerOne's bug bounty platform. |
+| **January 2017** | Uber identifies attackers behind the 2016 Breach as [Brandon Charles Glover and Vasile Mereacre](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy)[.](https://www.justice.gov/usao-ndca/pr/florida-man-and-canadian-national-plead-guilty-hackingextortion-conspiracy) |
+| **April 19th, 2017** | Uber sends a letter to the FTC to close its investigation stating the company had fully cooperated with the FTC and provided all responses necessary to investigators. |
+| **August 15th, 2017** | Uber and the FTC agree to a settlement regarding the previous 2014 data breach. |
+| **August 29th, 2017** | Uber names new CEO Dara Khosrowshahi. |
+| **November 21st, 2017** | Khosrowshahi released an open letter disclosing the 2016 breach, and later it was reported Sullivan was also fired. |
+| **April 12th, 2018** | The FTC reopens its investigation into Uber and withdraws the proposed settlement criticizing the company for concealing the breach. |
+| **August 2nd, 2018** | Grand jury indicts Brandon Charles Glover and Vasile Mereacre for a related breach of LinkedIn's parent company Lynda.com (now LinkedIn Learning). |
+| **September&nbsp;26th,&nbsp;2018** | Uber agrees to pay a 148 million dollar settlement for concealing the breach. |
+| **October 26th, 2018** | FTC provides and approves a revised settlement with Uber. |
+| **October 30th, 2019** | Glover and Mereacre plead guilty to the Uber data breach. |
+| **August 21st, 2020** | Sullivan is charged with one count of obstruction of justice and one count of Misprision of a Felony (i.e., knew that a federal felony had been committed and took affirmative steps to conceal that felony). |
+| **October 5th, 2022** | Sullivan is found guilty of Obstruction of the FTC and Misprision of a felony. |
 
 ### Attribution / Perpetrator
 
@@ -79,7 +81,7 @@ Per the [Department of Justice](https://www.justice.gov/usao-ndca/pr/florida-man
 
 As a result of this breach, Uber was fined 148 million dollars by the FTC. In their settlement with the FTC, they must also notify the customers, or they could face civil penalties. Sullivan was later charged and found guilty in October of 2022 for his role in covering up the data breach in 2016. The attackers were identified as Brandon Charles Glover and Vasile Mereacre. They were both indicted and pleaded guilty to their charges. They later agreed to testify in Sullivan's trial to lessen their sentence.
 
-The perpetrators of this Uber Breach were also responsible for a similar data theft at Lynda.com (part of LinkedIn) and used similar ransom/bug bounty tactics
+The perpetrators of this Uber Breach were also responsible for a similar data theft at Lynda.com (part of LinkedIn) and used similar ransom/bug bounty tactics[^1].
 
 
 ## Summary of coverage
@@ -104,5 +106,18 @@ The perpetrators of this Uber Breach were also responsible for a similar data th
 
 ## Cloud Security lessons learned
 
-- The attackers accessed Uber's GitHub account, which had access keys to the company's AWS servers. Uber should have had strict access control policies to limit who can access such keys. If these keys need to be in GitHub, Uber staff should rotate them regularly to ensure an attacker cannot get in.
-- Encryption of sensitive data: Uber used an AWS S3 bucket to store the unencrypted backup containing personally identifiable information of over 57 million users, making it easy for attackers to obtain sensitive data. Uber should have encrypted all sensitive data in transit and at rest.
+- Per the [FTC Complaint](uber_technologies_revised_complaint.pdf):
+	> until approximately September 2014, failed to require programs and engineers that access the Amazon S3 Datastore to use distinct access keys, instead permitting all programs and engineers to use a single AWS access key that provided full administrative privileges over all data in the Amazon S3 Datastore
+- In both cases, the attackers found long-term AWS credentials in Uber GitHub repositories.
+	- In the 2014 case, the GitHub repo was public. 
+- In the case of the 2016 breach, Uber used client-side encryption for most of the backup data, however the attackers found a signle manually created backup that was not encrypted, or only used native AWS encryption the access key allowed for decryption.
+- The access key used in the 2016 breach was created in 2013, and was scheduled to be rotated, but had not been rotated at the time the Uber user's GitHub was compromised and the access key found by Glover and Mereacre.[^2]
+- Based on internal IR information "Hundred service centers must rotate their secrets."[^3] implies that a number of AWS IAM Users may have been in place in 2016 to support on-prem connectivity. While this might have been the appropriate solution _at the time_, the number of IAM access keys that had to be rotated made it difficult for Uber to properly secure its environment leading to the 2016 breach.
+- Uber did not require MFA for access to GitHub, and the 2016 breach was due to a credential stuffing attack. Per the [FTC Complaint](uber_technologies_revised_complaint.pdf):
+	> Uber did not have a policy prohibiting engineers from reusing credentials, and did not require engineers to enable multi-factor authentication when accessing Uber’s GitHub repositories. The intruders said that they accessed Uber’s GitHub page using passwords that were previously exposed in other large data breaches,
+
+
+[^1]: [Glover / Mereacre Indictment ](IndictmentGloverMercerae2016.pdf)
+[^2]: [Sullivan Complaint](Sullivan_Complaint_FTC.pdf) Paragraph 25, pg 9
+[^3]: [Sullivan Complaint](Sullivan_Complaint_FTC.pdf) Paragraph 29, pg 10
+
