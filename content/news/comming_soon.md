@@ -2,7 +2,7 @@
 title: "Comming Soon"
 date: 2023-04-23T07:42:48-07:00
 
-draft: true
+draft: false
 description: "Update this with a social media synopsis"
 
 # author: "Donald Trump"

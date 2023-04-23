@@ -162,12 +162,12 @@ weight = 5
 ## Side Menu
 [[menu.link]]
 name = "GitHub"
-url = "https://github.com/FIXME"
+url = "https://github.com/primeharbor/"
 weight = 1
 
 [[menu.link]]
 name = "Twitter"
-url = "https://twitter.com/dsrkafuu"
+url = "https://twitter.com/jcfarris"
 weight = 2
 
 [[menu.link]]
