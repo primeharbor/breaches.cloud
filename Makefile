@@ -24,7 +24,7 @@ incident:
 	hugox new incidents/$(name)/index.md
 
 post:
-	hugox new news/$(slug).md
+	hugox new news/$(name).md
 
 # Create Using the main config, all current and future posts, but nothing in draft
 main:
