@@ -22,17 +22,17 @@ disclosure_date: 2014-06-18
 final_status: "Threat Actor Unknown"
 ---
 
-In June of 2014, The code hosting and project management provider known as CodeSpaces.com was forced to shut down after a series of events in which an Unknown threat actor performed a well organized Denial of Service attack and attempted to demand payment when negotiations fell through it was noted that the threat actor had gained access to Codespaces Amazon EC2 Account deleting data and its backups. 
+In June of 2014, The code hosting and project management provider known as CodeSpaces.com was forced to shut down after a series of events in which an Unknown threat actor performed a well-organized Denial of Service attack and attempted to demand payment. The threat actor accessed Codespaces Amazon Account when negotiations fell through, deleting data and backups.
 
 ## Incident
 
 ### Details of the Incident
 
-In June 2014 Code hosting and project management provider Codespaces.com was subject to a DDoS (Denial of Service Attack).  During the attack, the attacker claimed access to their “Amazon EC2 Control panel” leaving behind a [number of messages](https://web.archive.org/web/20140618165208/http://www.codespaces.com/) to contact them via Hotmail. 
+In June 2014, Code hosting and project management provider Codespaces.com was subject to a DDoS (Denial of Service Attack).  During the attack, the attacker claimed access to their “Amazon EC2 Control panel” leaving behind a [number of messages](https://web.archive.org/web/20140618165208/http://www.codespaces.com/) to contact them via Hotmail.
 
-Once access to the EC2 Panel had been restored Codespaces changed all passwords However, the threat actor created multiple backdoor logins. Once it was seen Codespaces was attempting to recover access, the threat actor deleted all EBS snapshots, S3 Buckets, AMIs, and several machines.
+Once access to the EC2 Panel had been restored, Codespaces changed all passwords. However, the threat actor created multiple backdoor logins. When the attacker realized Codespaces was attempting to recover access, the threat actor deleted all EBS snapshots, S3 Buckets, AMIs, and several machines.
 
-Following the assessment of damage, it became clear that the majority of Codespaces backups, data, machine configurations, and even offsite were either completely or partially gone.
+Following the damage assessment, it became clear that most Codespaces backups, data, and machine configurations were gone.
 
 > "Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in an irreversible position both financially and in terms of ongoing credibility. As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us. [^1]"
 
@@ -42,13 +42,11 @@ Following the assessment of damage, it became clear that the majority of Codespa
 
 ### Attribution / Perpetrator
 
-Per the statement from the Codespaces website “An unauthorized person who at this point who is still unknown (All we can say is that we have no reason to think it’s anyone who is or was employed with Code Spaces)”. No one has ever been identified as the perpetrator. 
-
-
+Per the statement from the Codespaces website, “An unauthorized person who at this point who is still unknown (All we can say is that we have no reason to think it’s anyone who is or was employed with Code Spaces)”. No one has ever been identified as the perpetrator.
 
 ### Long-term impact
 
-Codespaces was never able to recover and shut down permanently. Any remaining data of what little was left was returned to the customers.
+Codespaces never recovered the data and shut down permanently.
 
 ## Summary of Coverage
 
@@ -59,7 +57,9 @@ Codespaces was never able to recover and shut down permanently. Any remaining da
 ## Cloud Security lessons learned.
 
 * Maintain a copy of critical data in a non-workload AWS account
-* When an incident occurs, engage AWS Support. AWS would have been able to identify the backdoor and might have been able to recover the data. 
+* When an incident occurs, engage AWS Support. AWS would have been able to identify the backdoor and might have been able to recover the data.
 
 <!-- Footnotes themselves at the bottom. -->
 [^1]: [Codespaces Apology and Statement](https://web.archive.org/web/20140618165208/http://www.codespaces.com/)
+
+
