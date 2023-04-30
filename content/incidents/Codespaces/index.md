@@ -24,6 +24,8 @@ final_status: "Threat Actor Unknown"
 
 In June of 2014, The code hosting and project management provider known as CodeSpaces.com was forced to shut down after a series of events in which an Unknown threat actor performed a well-organized Denial of Service attack and attempted to demand payment. The threat actor accessed Codespaces Amazon Account when negotiations fell through, deleting data and backups.
 
+<!--more-->
+
 ## Incident
 
 ### Details of the Incident

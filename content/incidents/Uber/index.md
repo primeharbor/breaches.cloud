@@ -1,5 +1,5 @@
 ---
-title: "Uber 2014 and 2016 Breaches"
+title: "Uber Breaches (2014 & 2016)"
 date: 2023-04-20T13:38:46-04:00
 
 description: "A Cloud Security focused analysis of the Uber breach in 2014 and 2016"

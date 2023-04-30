@@ -8,7 +8,7 @@ description: "A Cloud Security focused analysis of the LA Times Cryptomining inc
 # draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["AWS", "S3", "Public-Bucket"]
+tags: ["AWS", "S3", "Public Bucket"]
 
 showToc: true # Do not change
 author: "Juan Rodriguez-Cardenas"

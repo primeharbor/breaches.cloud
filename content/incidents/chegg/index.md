@@ -1,5 +1,5 @@
 ---
-title: "Chegg - 2018"
+title: "Chegg (2018)"
 date: 2023-04-14T13:19:36-04:00
 
 description: "A Cloud Security focused analysis of the Chegg Data Breach in 2018"

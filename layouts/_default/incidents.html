@@ -14,11 +14,13 @@
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
   <div class="post-item post-meta-archive">
-    {{ partial "post-meta.html" . }}
-    Incident Dates: {{ .Params.incident_start_date }} to {{ .Params.incident_end_date }}
-    <br>Disclosure date: {{ .Params.disclosure_date }}
+    {{ partial "post-meta.html" . }}<br>
+  </div>
+  <div>
+    <b>Incident Dates:</b> {{ .Params.incident_start_date }} to {{ .Params.incident_end_date }}
+    <br><b>Disclosure date:</b> {{ .Params.disclosure_date }}
     {{ if ne .Params.victim .Title }}
-      <br>Victim: {{ .Params.victim }}
+      <br><b>Victim:</b> {{ .Params.victim }}
     {{ end }}
   </div>
 </div>
