@@ -8,7 +8,7 @@ description: "A Cloud Security focused analysis of the Codespaces Breach in 2014
 # draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["AWS", "S3", "EC2"]
+tags: ["AWS", "MultiAccount", "Ransomware"]
 
 showToc: true # Do not change
 author: "Juan Rodriguez-Cardenas"
