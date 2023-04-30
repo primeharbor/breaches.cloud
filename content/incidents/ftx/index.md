@@ -34,13 +34,14 @@ After a liquidity crisis, [FTX is forced into Chapter 11 bankruptcy](https://en.
 The new management, supported by a number of law firms, [Kroll](https://www.kroll.com/en), [Chainalysis](https://www.chainalysis.com/), and [Sygnia](https://www.coindesk.com/policy/2023/02/06/ftx-being-advised-by-cybersecurity-firm-sygnia-on-hack-inquiry-ceo-ray-says/) were tasked with finding the assets of FTX and 138 associated companies, identifying the creditors, and securing the FTX cloud environment.
 
 ### Timeline
-
-**November 2nd, 2022** - [Questions](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) start to be raised about the balance sheet of one FTX-related company Alameda Research.\
-**November 11th, 2022** - FTX Officially files for Chapter 11 Bankruptcy, founder Sam Bankman-Fried resigned as CEO ; John Ray appointed new CEO by the United States Bankruptcy Court of the District of Delaware.\
-**November 11th, 2022** - Reports of unauthorized transactions surface in the crypto-currency community. [Employees of FTX acknowledge](https://www.coindesk.com/business/2022/11/12/ftx-crypto-wallets-see-mysterious-late-night-outflows-totalling-more-than-380m/) a potential compromise and urge customers not to use the platform\
-**November 12th, 2022** - FTX's new management [acknowledges](https://www.cnbc.com/2022/11/12/ftx-says-it-is-investigating-unauthorized-transactions.html) unauthorized transfers of crypto-currency and begins to move funds to off-line (cold) wallets.\
-**November 17th, 2022** - John Ray files an [initial statement](Nov17Filing.pdf) with the Bankruptcy Court stating, "Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here."\
-**April 9th, 2023** - FTX publishes "[First Interim Report of John J. Ray III to The Independent Directors on Control Failures at the FTX Exchanges](FirstInterimReport.pdf)," which outlines the bulk of the cloud security issues documented here.
+| Date | Event |
+| ------ | ----- |
+| **November 2nd, 2022** | [Questions](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) start to be raised about the balance sheet of one FTX-related company Alameda Research.|
+| **November 11th, 2022** | FTX Officially files for Chapter 11 Bankruptcy, founder Sam Bankman-Fried resigned as CEO ; John Ray appointed new CEO by the United States Bankruptcy Court of the District of Delaware.|
+| **November 11th, 2022** | Reports of unauthorized transactions surface in the crypto-currency community. [Employees of FTX acknowledge](https://www.coindesk.com/business/2022/11/12/ftx-crypto-wallets-see-mysterious-late-night-outflows-totalling-more-than-380m/) a potential compromise and urge customers not to use the platform|
+| **November 12th, 2022** | FTX's new management [acknowledges](https://www.cnbc.com/2022/11/12/ftx-says-it-is-investigating-unauthorized-transactions.html) unauthorized transfers of crypto-currency and begins to move funds to off-line (cold) wallets.|
+| **November 17th, 2022** | John Ray files an [initial statement](Nov17Filing.pdf) with the Bankruptcy Court stating, "Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here."|
+| **April 9th, 2023** | FTX publishes "[First Interim Report of John J. Ray III to The Independent Directors on Control Failures at the FTX Exchanges](FirstInterimReport.pdf)," which outlines the bulk of the cloud security issues documented here. |
 
 ### Attribution / Perpetrator
 

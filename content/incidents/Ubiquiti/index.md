@@ -1,5 +1,5 @@
 ---
-title: "Ubiquiti Insider Threat"
+title: "Ubiquiti (2020)"
 date: 2023-04-13T14:38:46-04:00
 
 description: "A Cloud Security focused analysis of the Ubiquiti breach in 2020"
@@ -47,21 +47,22 @@ In March, a whistleblower reached out to reporter Brian Krebs, released details 
 Shortly after, the FBI identified the employee as Nickolas Sharp and searched his residence. In December 2021, Nickolas Sharp was charged with four counts relating to the incident. Sharp pleaded guilty in February 2023 and is scheduled to be sentenced in May 2023.
 
 ### Timeline
-
-**December 10th, 2020** - An attacker logs into Ubiquiti's AWS infrastructure. The attacker ran the "GetCallerIdentity" command to return the username and account information for the AWS account. \
-**December 21st, 2020** - An attacker masked by a Surfshark VPN begins cloning Ubiquiti's GitHub Repositories. \
-**December 22nd, 2020** - The Internet at the Sharp residence goes down for 30 minutes. Cloning commands continue when it comes back up, but VPN is turned off temporarily. \
-**December 26th, 2020** - Nickolas Sharp altered the lifecycle retention policy on the S3 Bucket storing the CloudTrail events to erase logs of their attack after a day. \
-**December 28th, 2020** - Other employees detected the incident and began investigating. \
-**January 7th, 2021** - Senior employees received a ransom email from the attacker. \
-**January 9th, 2021** - The attacker sent another email after not receiving the ransom, which contained a link to a public Keybase, which contained proprietary data of Ubiquiti. \
-**January 11th, 2021** - Ubiquiti emails customers stating to change passwords and enable multi-factor authentication, disclosing a breach had occurred. \
-**March 21st-28th, 2021** - An anonymous whistleblower, who turned out to be Nickolas Sharp, reaches out to Brian Krebs, outlining details of the attack and stating Ubiquiti was downplaying the breach. \
-**March 24th, 2021** - Federal Bureau of Investigation executes a search warrant on the Sharp residence. \
-**March 31st, 2021** - Ubiquiti releases a [statement](https://www.justice.gov/usao-sdny/press-release/file/1452706/download) regarding the attack. \
-**December 1st, 2021** - Nickolas Sharp is indicted. \
-**February 2nd, 2023** - Nickolas Sharp enters a Guilty plea in the case of this attack. \
-**May 10th, 2023** - Scheduled date for the sentencing hearing.
+| Date | Event |
+| ------ | ----- |
+| **December&nbsp;10th,&nbsp;2020** | An attacker logs into Ubiquiti's AWS infrastructure. The attacker ran the "GetCallerIdentity" command to return the username and account information for the AWS account. |
+| **December 21st, 2020** | An attacker masked by a Surfshark VPN begins cloning Ubiquiti's GitHub Repositories. |
+| **December&nbsp;22nd,&nbsp;2020** | The Internet at the Sharp residence goes down for 30 minutes. Cloning commands continue when it comes back up, but VPN is turned off temporarily. |
+| **December 26th, 2020** | Nickolas Sharp altered the lifecycle retention policy on the S3 Bucket storing the CloudTrail events to erase logs of their attack after a day. |
+| **December 28th, 2020** | Other employees detected the incident and began investigating. |
+| **January 7th, 2021** | Senior employees received a ransom email from the attacker. |
+| **January 9th, 2021** | The attacker sent another email after not receiving the ransom, which contained a link to a public Keybase, which contained proprietary data of Ubiquiti. |
+| **January 11th, 2021** | Ubiquiti emails customers stating to change passwords and enable multi-factor authentication, disclosing a breach had occurred. |
+| **March 21st-28th, 2021** | An anonymous whistleblower, who turned out to be Nickolas Sharp, reaches out to Brian Krebs, outlining details of the attack and stating Ubiquiti was downplaying the breach. |
+| **March 24th, 2021** | Federal Bureau of Investigation executes a search warrant on the Sharp residence. |
+| **March 31st, 2021** | Ubiquiti releases a [statement](https://www.justice.gov/usao-sdny/press-release/file/1452706/download) regarding the attack. |
+| **December 1st, 2021** | Nickolas Sharp is indicted. |
+| **February 2nd, 2023** | Nickolas Sharp enters a Guilty plea in the case of this attack. |
+| **May 10th, 2023** | Scheduled date for the sentencing hearing. |
 
 ### Attribution / Perpetrator
 

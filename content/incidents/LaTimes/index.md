@@ -40,10 +40,11 @@ Mursch states that "the miner was throttled to reduce the impact on visitors’ 
 While researching this, Mursch discovered[^2] another file, `BugDisclosure.txt`, which contained a warning to the site operators, urging them to secure it.
 
 ### Timeline
-
-**February 9th, 2018** - First known evidence the LA Times' S3 Bucket hosted the Coinhive miner. \
-**February 21, 2018** - Security Researcher Troy Mursch identifies that unauthorized users uploaded a cryptocurrency miner to the LA Times website. \
-**February 22, 2018** - The Los Angeles Times removes the Coinhive code from the [Homicide Report](https://homicide.latimes.com/)  page.
+| Date | Event |
+| ------ | ----- |
+|**February&nbsp;9th,&nbsp;2018** | First known evidence the LA Times' S3 Bucket hosted the Coinhive miner. |
+|**February&nbsp;21st,&nbsp;2018** | Security Researcher Troy Mursch identifies that unauthorized users uploaded a cryptocurrency miner to the LA Times website. |
+|**February&nbsp;22nd,&nbsp;2018** | The Los Angeles Times removes the Coinhive code from the [Homicide Report](https://homicide.latimes.com/)  page.|
 
  ### Attribution / Perpetrator
 

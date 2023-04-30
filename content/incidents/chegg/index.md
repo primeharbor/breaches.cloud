@@ -35,17 +35,19 @@ In April 2018, Chegg allowed a former contractor to retain access to their AWS A
 In September 2018, a threat intelligence vendor discovered an online forum containing 25 million user passwords in plain text. In response, Chegg required 40 million customers to reset their passwords.
 
 ### Timeline
-**April 29, 2018** - A former contractor accessed one of Chegg’s AWS S3 buckets using Root Credentials. \
-**April 29th, 2018** - According to an FTC complaint, the former contractor exfiltrated a database containing the personal information of approximately 40 million users of the Chegg platform.\
-**September 19th, 2018** - Chegg is informed that exfiltrated data has been found in an online forum [^2]. Upon additional investigation, Chegg discovers over 25 million user passwords from the exfiltrated files had been cracked.\
-**September 25th, 2018** - Chegg [notifies the SEC](https://www.sec.gov/Archives/edgar/data/1364954/000136495418000187/cyrus.htm) of the breach. \
-**September 26th, 2018** - Chegg [notifies the public](https://oag.ca.gov/system/files/California%20-%20Notice%20Letter%20to%20Consumers_0.PDF) and its users of the data breach.\
-**September 28th, 2018** - Chegg required over 40 million users to reset their passwords.\
-**September 11th, 2019** - Class Action [lawsuit filed](https://casetext.com/case/lyles-v-chegg-inc) against Chegg for the April 29th 2018 breach.\
-**April 28th, 2020** - Judge [rules](https://casetext.com/case/lyles-v-chegg-inc) Chegg breach lawsuit must proceed to arbitration. \
-**October 31st, 2022** - FTC Files an Official complaint against Chegg over the 2018 breach and other breaches that happened in 2017, 2019, and 2020 via a phishing attack. \
-**November 8th, 2022** - A [second class action lawsuit](https://www.classaction.org/news/chegg-hit-with-class-action-over-at-least-four-undisclosed-data-breaches-from-2017-2020) was filed against Chegg after the FTC accused the company of multiple cybersecurity faults that led to four data breaches between 2017-2020. \
-**January 26th, 2023** - The FTC and Chegg came to an agreement on an order that involved revamping their security practices, such as updating encryption and changing access controls. Chegg also changes their user data collection limits and how users can handle their own data.
+| Date | Event |
+| ------ | ----- |
+| **April 29, 2018** | A former contractor accessed one of Chegg’s AWS S3 buckets using Root Credentials. |
+| **April 29th, 2018** | According to an FTC complaint, the former contractor exfiltrated a database containing the personal information of approximately 40 million users of the Chegg platform.|
+| **September 19th, 2018** | Chegg is informed that exfiltrated data has been found in an online forum [^2]. Upon additional investigation, Chegg discovers over 25 million user passwords from the exfiltrated files had been cracked.|
+| **September&nbsp;25th,&nbsp;2018** | Chegg [notifies the SEC](https://www.sec.gov/Archives/edgar/data/1364954/000136495418000187/cyrus.htm) of the breach. |
+| **September&nbsp;26th,&nbsp;2018** | Chegg [notifies the public](https://oag.ca.gov/system/files/California%20-%20Notice%20Letter%20to%20Consumers_0.PDF) and its users of the data breach.|
+| **September&nbsp;28th,&nbsp;2018** | Chegg required over 40 million users to reset their passwords.|
+| **September&nbsp;11th,&nbsp;2019** | Class Action [lawsuit filed](https://casetext.com/case/lyles-v-chegg-inc) against Chegg for the April 29th 2018 breach.|
+| **April 28th, 2020** | Judge [rules](https://casetext.com/case/lyles-v-chegg-inc) Chegg breach lawsuit must proceed to arbitration. |
+| **October 31st, 2022** | FTC Files an Official complaint against Chegg over the 2018 breach and other breaches that happened in 2017, 2019, and 2020 via a phishing attack. |
+| **November 8th, 2022** | A [second class action lawsuit](https://www.classaction.org/news/chegg-hit-with-class-action-over-at-least-four-undisclosed-data-breaches-from-2017-2020) was filed against Chegg after the FTC accused the company of multiple cybersecurity faults that led to four data breaches between 2017-2020. |
+| **January 26th, 2023** | The FTC and Chegg came to an agreement on an order that involved revamping their security practices, such as updating encryption and changing access controls. Chegg also changes their user data collection limits and how users can handle their own data.|
 
 ### Attribution / Perpetrator
 

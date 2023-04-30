@@ -45,14 +45,16 @@ Per LastPass's disclosures, their production environment was on-prem, and only t
 > *"Ultimately AWS GuardDuty Alerts informed us of anomalous behavior as the threat actor attempted to use Cloud Identity and Access Management (IAM) roles to perform unauthorized activity."*
 
 ### Timeline
-**August 8th, 2022** - Threat-actor activity began.\
-**August 12th, 2022** - LastPass detects "unusual activity" in their development environment.\
-**August 13th, 2022** - Mandiant was engaged to assist in the IR process.\
-**August 25th, 2022** - LastPass discloses that *"an unauthorized party"* *"took portions of source code and some proprietary LastPass technical information"*. No customer vaults were impacted.\
-**August 12th to October 26th, 2022** - The threat actor *"was actively engaged in a new series of reconnaissance, enumeration, and exfiltration activities aligned to the cloud storage environment"*[^2]\
-**December 22nd, 2022** - LastPass discloses that "an unknown threat actor accessed a cloud-based storage environment" and "The threat actor was also able to copy a backup of customer vault data".\
-**January 3rd, 2023** - Class Action Suit filed in the US District Court of Massachusetts\
-**March 1st, 2023** - LastPass discloses how the threat actor compromised both engineers to execute both the first and second incidents.
+| Date | Event |
+| ------ | ----- |
+| **August 8th, 2022** | Threat-actor activity began.|
+| **August 12th, 2022** | LastPass detects "unusual activity" in their development environment.|
+| **August 13th, 2022** | Mandiant was engaged to assist in the IR process.|
+| **August 25th, 2022** | LastPass discloses that *"an unauthorized party"* *"took portions of source code and some proprietary LastPass technical information"*. No customer vaults were impacted.|
+| **August 12th to October 26th, 2022** | The threat actor *"was actively engaged in a new series of reconnaissance, enumeration, and exfiltration activities aligned to the cloud storage environment"*[^2]|
+| **December 22nd, 2022** | LastPass discloses that "an unknown threat actor accessed a cloud-based storage environment" and "The threat actor was also able to copy a backup of customer vault data".|
+| **January 3rd, 2023** | Class Action Suit filed in the US District Court of Massachusetts|
+| **March 1st, 2023** | LastPass discloses how the threat actor compromised both engineers to execute both the first and second incidents.|
 
 ### Attribution / Perpetrator
 Per the March 1st disclosure:

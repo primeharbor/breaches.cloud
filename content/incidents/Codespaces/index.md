@@ -1,5 +1,5 @@
 ---
-title: "Codespaces 2014"
+title: "Codespaces (2014)"
 date: 2023-04-28T13:28:36-04:00
 
 description: "A Cloud Security focused analysis of the Codespaces Breach in 2014"
@@ -37,8 +37,10 @@ Following the damage assessment, it became clear that most Codespaces backups, d
 > "Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in an irreversible position both financially and in terms of ongoing credibility. As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us. [^1]"
 
 ### Timeline
-**June 17, 2014** - Code Spaces is hit with a DDoS (Denial of Service) attack. \
-**June 18, 2014** - Code Spaces is shut down permanently.
+| Date | Event |
+| ------ | ----- |
+| **June 17, 2014** | Code Spaces is hit with a DDoS (Denial of Service) attack.  |
+| **June 18, 2014** | Code Spaces is shut down permanently. |
 
 ### Attribution / Perpetrator
 
