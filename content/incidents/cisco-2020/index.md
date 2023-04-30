@@ -37,20 +37,15 @@ The [official DOJ Press release](https://www.justice.gov/usao-ndca/pr/san-jose-m
 Following his resignation from the company, Ramesh deployed code from his Google Project account, resulting in the deletion of 456 Virtual Machines for Cisco’s WebEx Team Application that allows for video meetings, messaging, file sharing, and more. Over 16,000 WebEx Teams accounts were shut down for 2 weeks causing roughly 2.4 million in damages for Cisco. In his plea, Ramesh [states](ramesh-sentencing.pdf) that “he took reckless actions and did not consider the possible risk and consequences it would bring to Cisco”.
  
 ### Timeline
-
-**April 24, 2018** - Ramesh resigns from Cisco.
-
-**September 24, 2018** - Ramesh "used his AWS key to access Cisco’s AWS account that maintained the servers for WebEx through his Google Cloud Platform account. He then issued commands over the course of two hours that deleted approximately 456 servers, resulting in the complete shutdown of the WebEx Teams application."[^2]
- 
-**July 13, 2020** - Ramesh is charged with one count of  Intentionally Accessing a Protected Computer Without Authorization and Recklessly Causing Damage.
-
-**July 30, 2020** - Ramesh enters a plea agreement citing his accessing Cisco's cloud infrastructure hosted on AWS without authorization.
- 
-**August 26, 2020** - Ramesh Pleads guilty to one count of intentionally accessing a protected computer unauthorized and causing damage to Cisco.
-
-**December 9, 2020** - Ramesh is sentenced following his pleading guilty.
-
-**February 10, 2021** - Ramesh begins his sentence of 24 months in prison, a fine of 15,000$, and another year of supervision following his release.
+| Date | Event |
+| ------ | ----- |
+| **April 24, 2018** | Ramesh resigns from Cisco.|
+| **September&nbsp;24,&nbsp;2018** | Ramesh "used his AWS key to access Cisco’s AWS account that maintained the servers for WebEx through his Google Cloud Platform account. He then issued commands over the course of two hours that deleted approximately 456 servers, resulting in the complete shutdown of the WebEx Teams application."[^2]|
+| **July 13, 2020** | Ramesh is charged with one count of  Intentionally Accessing a Protected Computer Without Authorization and Recklessly Causing Damage.|
+| **July 30, 2020** | Ramesh enters a plea agreement citing his accessing Cisco's cloud infrastructure hosted on AWS without authorization.|
+| **August 26, 2020** | Ramesh Pleads guilty to one count of intentionally accessing a protected computer unauthorized and causing damage to Cisco.|
+| **December 9, 2020** | Ramesh is sentenced following his pleading guilty.|
+| **February 10, 2021** | Ramesh begins his sentence of 24 months in prison, a fine of 15,000$, and another year of supervision following his release.|
 
 ### Attribution / Perpetrator
 

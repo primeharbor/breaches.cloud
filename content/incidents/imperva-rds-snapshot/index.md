@@ -34,10 +34,12 @@ An unknown threat actor compromised an un-use EC2 Instance, accessed AWS API Key
 In October 2018, an unknown attacker compromised an exposed EC2 instance and gained access to AWS API keys. These keys were subsequently used to access an RDS Snapshot in one of Imperva's production AWS Accounts. The database snapshot from a year prior was related to their Incapsula WAF product and contained customer email addresses, hashed passwords, API keys, and some customer-provided SSL Certificates.
 
 ### Timeline
-**September 15, 2017** - Database (RDS) Snapshot made\
-**October 2018** - Unauthorized use of an administrative API key in production AWS accounts\
-**August 20, 2019** - Imperva received a data set from a third party requesting a bug bounty\
-**August 27, 2019** - Imperva announced a security incident that affected a subset of its Cloud WAF customers
+| Date | Event |
+| ------ | ----- |
+| **September&nbsp;15,&nbsp;2017** | Database (RDS) Snapshot made|
+| **October 2018** | Unauthorized use of an administrative API key in production AWS accounts|
+| **August 20, 2019** | Imperva received a data set from a third party requesting a bug bounty|
+| **August 27, 2019** | Imperva announced a security incident that affected a subset of its Cloud WAF customers|
 
 
 ## Summary of Coverage
