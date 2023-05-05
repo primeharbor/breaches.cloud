@@ -70,6 +70,7 @@ The Department of Justice indicted Brandon Charles Glover and Vasile Mereacre. T
 | **October 30th, 2019** | Glover and Mereacre plead guilty to the Uber data breach. |
 | **August 21st, 2020** | Sullivan is charged with one count of obstruction of justice and one count of Misprision of a Felony (i.e., knew that a federal felony had been committed and took affirmative steps to conceal that felony). |
 | **October 5th, 2022** | Sullivan is found guilty of Obstruction of the FTC and Misprision of a felony. |
+| **May 5th, 2023** | Sullivan is sentenced to three years probation. |
 
 ### Attribution / Perpetrator
 
@@ -82,6 +83,9 @@ Per the [Department of Justice](https://www.justice.gov/usao-ndca/pr/florida-man
 As a result of this breach, Uber was fined 148 million dollars by the FTC. In their settlement with the FTC, they must also notify the customers, or they could face civil penalties. Sullivan was later charged and found guilty in October of 2022 for his role in covering up the data breach in 2016. The attackers were identified as Brandon Charles Glover and Vasile Mereacre. They were both indicted and pleaded guilty to their charges. They later agreed to testify in Sullivan's trial to lessen their sentence.
 
 The perpetrators of this Uber Breach were also responsible for a similar data theft at Lynda.com (part of LinkedIn) and used similar ransom/bug bounty tactics[^1].
+
+In sentencing Sullivan, District Judge William Orrick said
+> that because of Mr. Sullivan’s character, the unusual nature of the case and that it was the first of its kind, he had shown Mr. Sullivan leniency, but he said chief information security officers shouldn’t expect that in future cases. [WSJ ($)](https://www.wsj.com/articles/former-uber-security-chief-gets-probation-in-obstruction-case-87c7c0b9)
 
 
 ## Summary of coverage
