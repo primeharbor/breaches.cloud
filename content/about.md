@@ -12,4 +12,4 @@ Our goal is to provide the security community a go-to place for identifying real
 
 Breaches.Cloud is hosted and sponsored by [PrimeHarbor Technologies, LLC](https://www.primeharbor.com). In addition, the cloud security community is welcome to contribute to the site via our [GitHub Repository](https://github.com/jchrisfarris/breaches.cloud). You can find more information on how to contribute under the [CONTRIBUTING.md](https://github.com/jchrisfarris/breaches.cloud/CONTRIBUTING.md) file.
 
-Our [Privacy Policy](/privacy)
+Our [Privacy Policy](/privacy).
