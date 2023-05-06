@@ -8,7 +8,7 @@ https://breaches.cloud
 This site is a compendium of information related to security incidents and breaches with customers operating in the major cloud providers. It is intended to help cloud security practitioners articulate the risks of specific cloud security mistakes and to help them inform their respective leadership, development, and operations teams.
 
 
-Breaches.Cloud is hosted and sponsored by [PrimeHarbor Technologies, LLC](https://www.primeharbor.com). In addition, the cloud security community is welcome to contribute to the site via our [GitHub Repository](https://github.com/jchrisfarris/breaches.cloud). You can find more information on how to contribute under the [CONTRIBUTING.md](https://github.com/jchrisfarris/breaches.cloud/CONTRIBUTING.md) file.
+Breaches.Cloud is hosted and sponsored by [PrimeHarbor Technologies, LLC](https://www.primeharbor.com). In addition, the cloud security community is welcome to contribute to the site via our [GitHub Repository](https://github.com/primeharbor/breaches.cloud). You can find more information on how to contribute under the [CONTRIBUTING.md](https://github.com/primeharbor/breaches.cloud/CONTRIBUTING.md) file.
 
 ## How to Contribute
 Ipsum Lorem

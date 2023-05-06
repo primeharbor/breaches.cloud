@@ -28,7 +28,7 @@ Incidents don't happen all at once. Instead, details trickle out and the justice
 
 ## How you can help
 
-Once we're done with the initial site, the [breaches.cloud](https://github.com/jchrisfarris/breaches.cloud) source repository will be made public, and the community is welcome to add any additional information on the cataloged incidents.
+Once we're done with the initial site, the [breaches.cloud](https://github.com/primeharbor/breaches.cloud) source repository will be made public, and the community is welcome to add any additional information on the cataloged incidents.
 
 ## What's next
 
