@@ -13,8 +13,8 @@ The cloud security community is welcome to contribute to the site via our [GitHu
 
 
 ## Licensing
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License][cc-by-nc-nd].
+The Breach write ups are licensed under a
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License][cc-by-nc-nd]. Material sourced from government sites (executive department actions, judicial actions, etc) are not covered by the Creative Commons licenses.
 
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
