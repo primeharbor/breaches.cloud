@@ -6,8 +6,8 @@ draft: true
 # description: "Technical analysis of the 2019 Capital One Hack"
 tags: ["AWS", "SSRF", "FinTech", "IMDSv1"]
 showToc: true
-# author: "Donald Trump"
-# author_url: "https://www.cnn.com/"
+author: "Chris Farris"
+author_url: "https://www.chrisfarris.com/"
 
 victim: "Capital One"
 incident_start_date: 2019-03-12
