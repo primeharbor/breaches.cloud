@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod: {{ .Date }}
 
 description: "Update this with a social media and SEO synopsis"
 
@@ -8,10 +9,10 @@ description: "Update this with a social media and SEO synopsis"
 draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["REPLACE THIS WITH VALID TAGS"]
+tags: ["REPLACE","THIS WITH","VALID TAGS"]
 
 showToc: true # Do not change
-author: "Donald Trump"
+author: "First Last"
 author_url: "https://www.cnn.com/"
 
 # These details are used to populate the Incident Index page.
@@ -33,12 +34,12 @@ Form a brief synopsis of the incident. No more than two to three paragraphs.
 
 ### Attribution / Perpetrator
 
-### Long-term impact
+### Long-term Impact
 
-## Summary of coverage
-* Source: [News Article One](FIXME) Month, Day, Year
-* Source: [News Article Two](FIXME) Month, Day, Year
-* [Press Release](FIXME) Month, Day, Year
-* [Victim Blog Post 1](FIXME) Month, Day, Year
+## Summary of Coverage
+* Source: [News Article One](FIXME) Month Day, Year
+* Source: [News Article Two](FIXME) Month Day, Year
+* [Press Release](FIXME) Month Day, Year
+* [Victim Blog Post 1](FIXME) Month Day, Year
 
-## Cloud Security Implications of this incident.
+## Cloud Security Lessons Learned
