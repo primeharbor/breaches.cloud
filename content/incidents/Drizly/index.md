@@ -5,7 +5,7 @@ date: 2023-04-13T14:38:46-04:00
 description: "A Cloud Security focused analysis of the Drizly breach in 2020."
 
 # Set to false before publishing
-draft: true
+# draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["AWS", "GitHub", "RDS"]

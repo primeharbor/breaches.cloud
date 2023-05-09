@@ -5,7 +5,7 @@ date: 2023-03-18T10:53:42-04:00
 description: "A Cloud Security focused analysis of the LastPass incidents of 2022"
 
 # Set to false before publishing
-draft: true
+draft: false
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["AWS", "Access Keys", "Spear Phishing", "Mishandled Secrets"]

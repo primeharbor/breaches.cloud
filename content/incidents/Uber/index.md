@@ -5,7 +5,7 @@ date: 2023-04-20T13:38:46-04:00
 description: "A Cloud Security focused analysis of the Uber breach in 2014 and 2016"
 
 # Set to false before publishing
-draft: true
+# draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["AWS", "GitHub", "S3"]
