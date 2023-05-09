@@ -13,5 +13,10 @@ Author: &nbsp; <a href="{{ .Params.author_url }}" > {{ .Params.author }} </a>&nb
 
 {{ if .Site.Params.showReadTime }}<span><i class="iconfont icon-time-sharp"></i>&nbsp;{{ i18n "postMetaReadingTime" .ReadingTime }}</span>{{ end }}
 
-{{ if and (not .Params.tags) .Site.Params.hideNoTagList }}{{ else }}<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;{{ if .Params.tags }}{{ range .Params.tags }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;{{ end }}{{ else }}{{ i18n "postMetaNoTag" }}{{ end }}</span>{{ end }}
+<span><i class="iconfont icon-pricetags-sharp"></i>
+	{{ if .Params.tags }}
+		{{ range first 1 .Params.tags }}&nbsp;<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+		{{ range after 1 .Params.tags }}&nbsp;|&nbsp;<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+	{{ end }}
+</span>
 

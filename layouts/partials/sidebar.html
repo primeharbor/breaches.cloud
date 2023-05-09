@@ -17,7 +17,7 @@
         <div>
             {{ range .Site.Taxonomies.tags }}
             <span>
-                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>&nbsp;|
             </span>
             {{ end }}
         </div>

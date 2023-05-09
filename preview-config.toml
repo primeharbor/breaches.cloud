@@ -37,7 +37,7 @@ subTitle = "[Preview Site] Documenting their mistakes so you don't make them."
 defaultTheme = "light"              # default theme when first visit (auto|dark|light)
 
 # Source URL of the website, will appear in the footer
-sourceURL = "https://github.com/jchrisfarris/breaches.cloud"
+sourceURL = "https://github.com/primeharbor/breaches.cloud"
 
 # Use CloudFlare Workers to accelerate the Google Analytics
 # If you are using this please comment the googleAnalytics above
@@ -162,13 +162,13 @@ weight = 5
 ## Side Menu
 [[menu.link]]
 name = "GitHub"
-url = "https://github.com/FIXME"
+url = "https://github.com/primeharbor/breaches.cloud"
 weight = 1
 
-[[menu.link]]
-name = "Twitter"
-url = "https://twitter.com/dsrkafuu"
-weight = 2
+# [[menu.link]]
+# name = "Twitter"
+# url = "https://twitter.com/dsrkafuu"
+# weight = 2
 
 [[menu.link]]
 name = "PrimeHarbor"
