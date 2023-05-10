@@ -1,3 +1,27 @@
+---
+title: "CommuteAir"
+date: 2023-04-28T13:28:36-04:00
+
+description: "A Cloud Security focused analysis of the CommuteAir Breach"
+
+# Set to false before publishing
+# draft: true
+
+# This is not used for SEO, but allows users on the site to view incidents by keyword
+tags: ["AWS", "Jenkins", "S3 Buckets"]
+
+showToc: true # Do not change
+author: "Mark Gaddy"
+author_url: "https://github.com/TheFunky1Markimark"
+
+# These details are used to populate the Incident Index page.
+victim: "CommuteAir"
+incident_start_date: 2023-01-19
+incident_end_date: 2023-01-19
+disclosure_date: 2023-01-19
+final_status: "Tillie Kottman"
+---
+
 In January of 2023, CommuteAir suffered a breach that exposed the US Department of Homeland Security's "No Fly" and Selective Screening lists containing over 1.5 million records, along with CommuteAir employee information. The attacker found an exposed Jenkins server and was able to access different build workspaces containing repositories for the build jobs. On the Jenkins server, the attacker found access keys that offered access to the CommuteAir environment. After investigating the AWS Infrastructure, the attacker found the No Fly List among test data on the Jenkins server.
 
 \<!--more--\> \<!-- This separates the synopsis from the main body --\>
