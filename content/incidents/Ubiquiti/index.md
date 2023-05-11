@@ -1,6 +1,7 @@
 ---
 title: "Ubiquiti (2020)"
 date: 2023-04-13T14:38:46-04:00
+lastmod: 2023-05-11T15:48:46-04:00
 
 description: "A Cloud Security focused analysis of the Ubiquiti breach in 2020"
 
@@ -20,7 +21,7 @@ victim: "Ubiquiti"
 incident_start_date: 2020-12-10
 incident_end_date: 2020-12-26
 disclosure_date: 2021-01-11
-final_status: "Perpetrator Plead Guilty"
+final_status: "Perpetrator Sentenced"
 
 ---
 
@@ -62,7 +63,7 @@ Shortly after, the FBI identified the employee as Nickolas Sharp and searched hi
 | **March 31st, 2021** | Ubiquiti releases a [statement](https://www.justice.gov/usao-sdny/press-release/file/1452706/download) regarding the attack. |
 | **December 1st, 2021** | Nickolas Sharp is indicted. |
 | **February 2nd, 2023** | Nickolas Sharp enters a Guilty plea in the case of this attack. |
-| **May 10th, 2023** | Scheduled date for the sentencing hearing. |
+| **May 10th, 2023** | Sharp sentenced to 6 years in prison |
 
 ### Attribution / Perpetrator
 
@@ -84,6 +85,7 @@ After Brian Krebs released his article, Ubiquiti's stock price plummeted over 20
 * Court Listener: [Ubiquiti Inc. vs. Krebs](https://www.courtlistener.com/docket/63197557/ubiquiti-inc-v-krebs/) - September 1st, 2022
 * Department of Justice: [Guilty Plea](https://www.justice.gov/usao-sdny/pr/former-employee-technology-company-pleads-guilty-stealing-confidential-data-and) February 2nd, 2023
 * Verge: [Report on Breach](https://www.theverge.com/2023/2/3/23584414/ubiquiti-developer-guilty-extortion-hack-security-breach-bitcoin-ransom) February 3rd, 2023
+* DOJ: [Former Employee Of Technology Company Sentenced To Six Years In Prison For Stealing Confidential Data And Extorting Company For Ransom](https://www.justice.gov/usao-sdny/pr/former-employee-technology-company-sentenced-six-years-prison-stealing-confidential) May 10th, 2023
 
 ## Cloud Security lessons learned.
 
