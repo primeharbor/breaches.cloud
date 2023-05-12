@@ -1,0 +1,20 @@
+{{ define "main" }}
+<!-- homepage range in all posts -->
+{{ $paginator := .Paginate (where .Site.RegularPages.ByLastmod.Reverse "Type" "in" .Site.Params.mainSections) }}
+{{ range $paginator.Pages }}
+<div class="post">
+    <h2 class="post-item post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="post-item post-meta">
+        {{ partial "post-meta.html" . }}
+    </div>
+    <div class="post-item post-summary markdown-body">
+        {{ .Summary }}
+    </div>
+</div>
+{{ end }}
+
+{{- partial "pagination.html" (dict "context" . "pagi" $paginator) -}}
+
+{{ end }}
