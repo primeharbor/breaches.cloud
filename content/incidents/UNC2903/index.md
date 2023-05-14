@@ -3,13 +3,13 @@ title: "UNC2903"
 date: 2023-04-13T14:38:46-04:00
 lastmod: 2023-05-11T15:48:46-04:00
 
-description: "A Cloud Security focused analysis of the UNC2903"
+description: "A Cloud Security focused analysis of UNC2903"
 
 # Set to false before publishing
 # draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["AWS", "Metadata Abuse" "IMDSv1]
+tags: ["AWS", "Metadata Abuse", "IMDSv1]
 
 showToc: true # Do not change
 author: "Mark Gaddy"
