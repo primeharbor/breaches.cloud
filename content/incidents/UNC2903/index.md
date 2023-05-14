@@ -9,7 +9,7 @@ description: "A Cloud Security focused analysis of UNC2903"
 # draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["AWS", "Metadata Abuse", "IMDSv1]
+tags: ["AWS", "Metadata Abuse", "IMDSv1"]
 
 showToc: true # Do not change
 author: "Mark Gaddy"
