@@ -27,29 +27,37 @@ final_status: "Victim Unknown"
 
 Mandiant identified UNC2903 attempting to harvest and abuse credentials using Amazon's Instance Metadata Service (IMDS). Mandiant observed that UNC2903 utilized a relay box to perform web scanning and carry out exploitation and related IMDSv1 abuse.
 
-\<!--more--\> \<!-- This separates the synopsis from the main body --\>
+\<!--more--\> 
 
 ## Incident
 
 ### Details of the Incident
 
-Mandiant has been studying the common tactics used by various threat actors. Mandiant identified UNC2903 attempting to harvest and abuse credentials using Amazon Instance Metadata Service (IMDS). This [uncategorized threat actor](https://www.mandiant.com/resources/blog/how-mandiant-tracks-uncategorized-threat-actors) begins by scanning externally facing AWS infrastructure hosting Adminer software. Adminer is an open-source database management tool written in PHP. Once Infrastructure is identified, they perform further reconnaissance and begin attempting to exploit the web server. Afterward, they will also try to do manual exploitation and test any exploits they identified prior. UNC2903 has been known to use [CVE-2021-21311](https://nvd.nist.gov/vuln/detail/CVE-2021-21311) to exploit out-of-date Adminer software. Adminer versions 4.0-4.7.9 are vulnerable to server-side request forgery. UNC2903 abuses this by hosting a preconfigured web server on a relay box with a 301 redirect script. The attacker will then navigate to the Adminer page, where they will perform the server-side request forgery vulnerability. The attacker will then type in the address of the relay box hosting the redirect script and then presses the login button. This fools the victim's server into following the 301 redirect. The victim server will then return an error to the attacker, but since IMDS returns results from the service, the metadata access keys are displayed in the error message. The attacker can then use the access keys provided to access the cloud infrastructure that the victim is using.
+Mandiant studied the common tactics used by various threat actors. Mandiant identified UNC2903 attempting to harvest and abuse credentials using Amazon Instance Metadata Service (IMDS). This [uncategorized threat actor](https://www.mandiant.com/resources/blog/how-mandiant-tracks-uncategorized-threat-actors) began by scanning externally facing AWS infrastructure hosting Adminer software. Adminer is an open-source database management tool written in PHP. Adminer versions 4.0-4.7.9 are vulnerable to [CVE-2021-21311](https://nvd.nist.gov/vuln/detail/CVE-2021-21311) , a server-side request forgery.
+
+Once vulnerable infrastructure was identified, they performed further reconnaissance and began attempting to exploit the web server. Afterward, they will also tried to do manual exploitation and tested any exploits they identified prior.
+
+UNC2903 abused this by hosting a pre configured web server on a relay box with a 301 redirect script. From the exposed Adminer interface, The attacker entered the address of the relay box hosting the redirect script and then pressed the login button. This fools the victim's server into following the 301 redirect. The victim server will then return an error to the attacker, but since IMDS returns results from the service, the metadata access keys are displayed in the error message. The attacker can then use the access keys provided to access the victim's AWS account.
 
 ### Timeline
 
+**Februrary 2021** - [CVE-2021-21311](https://advantage.mandiant.com/cve/vulnerability--5a1fbe9b-f51e-5cdb-8e5f-25681276b02f) was published for the vulnerable version of adminer.
+
 **June 2021** - Mandiant observed that UNC2903 infrastructure was used to scan over 2100 IP addresses, focusing on web services such as port 80 or 443. Eighteen minutes after the CVE-2021-21311, vulnerable adminer.php was discovered by the threat actor through scanning. An automated session from a free VPN service also scanned the adminer.php.
-
-
 
 ### Attribution / Perpetrator
 
-This attack has been attributed to UNC2903 by [Mandiant](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903). The victim is currently unknown.
+This attack has been attributed to UNC2903 by [Mandiant](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903). No other activity has been attributed to his group
+
+The victim is currently unknown.
 
 ## Summary of coverage
 
 NIST - [NVD - CVE-2021-21311](https://nvd.nist.gov/vuln/detail/CVE-2021-21311) February 11th, 2021
 
 Mandiant - [Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) May 04th, 2022
+
+SummitRoute - [IMDSv2 Wall of Shame](https://github.com/SummitRoute/imdsv2_wall_of_shame) - List of vendors that do not support IMDSv2
 
 ## Cloud Security lessons learned.
 
