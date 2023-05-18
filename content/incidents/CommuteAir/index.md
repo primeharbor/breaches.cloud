@@ -19,12 +19,12 @@ victim: "CommuteAir"
 incident_start_date: 2023-01-19
 incident_end_date: 2023-01-19
 disclosure_date: 2023-01-19
-final_status: "Tillie Kottman"
+final_status: "Incident contained"
 ---
 
 In January of 2023, CommuteAir suffered a breach that exposed the US Department of Homeland Security's "No Fly" and Selective Screening lists containing over 1.5 million records, along with CommuteAir employee information. The attacker found an exposed Jenkins server and was able to access different build workspaces containing repositories for the build jobs. On the Jenkins server, the attacker found access keys that offered access to the CommuteAir environment. After investigating the AWS Infrastructure, the attacker found the No Fly List among test data on the Jenkins server.
 
-\<!--more--\> \<!-- This separates the synopsis from the main body --\>
+<!--more-->
 
 ## Incident
 
@@ -38,9 +38,10 @@ While CommuteAir didn't persist the No Fly Lists in S3, the attacker was able to
 
 ### Timeline
 
-**January 19th, 2023** - maia arson crimew published her blog post outlining how she found the Jenkins servers and was able to download the No Fly List.
-
-**January 25th, 2023 -** TSA [begins an investigation](https://www.cnn.com/2023/01/20/politics/tsa-no-fly-list-data-cybersecurity/index.html)
+| Date | Event |
+| ------ | ----- |
+| **January 19th, 2023** | maia arson crimew published her blog post outlining how she found the Jenkins servers and was able to download the No Fly List. |
+| **January 25th, 2023** | TSA [began an investigation](https://www.cnn.com/2023/01/20/politics/tsa-no-fly-list-data-cybersecurity/index.html) |
 
 ### Attribution / Perpetrator
 
@@ -48,13 +49,10 @@ _Maia arson crimew_, also known as Tillie Kottman, claimed responsibility. Kottm
 
 ## Summary of coverage
 
-DOJ: [Swiss Hacker indicted for conspiracy, wire fraud, and aggravated identity theft](https://www.justice.gov/usao-wdwa/pr/swiss-hacker-indicted-conspiracy-wire-fraud-and-aggravated-identity-theft) - March 18th, 2021
-
-Maia's Blog: [How to hack an airline](https://maia.crimew.gay/posts/how-to-hack-an-airline/) - January 19th, 2023
-
-DailyDot: [U.S. airline accidentally exposes 'No Fly List' on an unsecured server](https://www.dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair/) - January 21st, 2023
-
-BleepingComputer: [U.S. No Fly list shared on a hacking forum, government investigating](https://www.bleepingcomputer.com/news/security/us-no-fly-list-shared-on-a-hacking-forum-government-investigating/) - January 30th, 2023
+* DOJ: [Swiss Hacker indicted for conspiracy, wire fraud, and aggravated identity theft](https://www.justice.gov/usao-wdwa/pr/swiss-hacker-indicted-conspiracy-wire-fraud-and-aggravated-identity-theft) - March 18th, 2021
+* Maia's Blog: [How to hack an airline](https://maia.crimew.gay/posts/how-to-hack-an-airline/) - January 19th, 2023
+* DailyDot: [U.S. airline accidentally exposes 'No Fly List' on an unsecured server](https://www.dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair/) - January 21st, 2023
+* BleepingComputer: [U.S. No Fly list shared on a hacking forum, government investigating](https://www.bleepingcomputer.com/news/security/us-no-fly-list-shared-on-a-hacking-forum-government-investigating/) - January 30th, 2023
 
 ## Cloud Security lessons learned.
 
