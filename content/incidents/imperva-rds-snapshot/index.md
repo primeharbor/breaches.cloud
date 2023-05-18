@@ -23,7 +23,7 @@ final_status: "Closed"
 
 ---
 
-An unknown threat actor compromised an un-use EC2 Instance, accessed AWS API Keys, and used them to exfiltrate a Database Snapshot from security vendor Imperva.
+An unknown threat actor compromised an un-used EC2 Instance, accessed AWS API Keys, and used them to exfiltrate a Database Snapshot from security vendor Imperva.
 
 <!--more--> <!-- This separates the synopsis from the main body -->
 
