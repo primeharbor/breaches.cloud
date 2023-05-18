@@ -12,7 +12,7 @@ author: "Chris Farris"
 author_url: "https://www.chrisfarris.com/"
 
 # These details are used to populate the Incident Index page.
-victim: "FTX & it's creditors"
+victim: "FTX & its creditors"
 incident_start_date: 2022-11-11
 incident_end_date: 2022-11-12
 disclosure_date: 2022-11-11
