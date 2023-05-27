@@ -56,7 +56,7 @@ As documented in the [Government's sentencing report](US-v-Sharp-Sentencing-5-11
 | **December&nbsp;10th,&nbsp;2020** | An attacker logs into Ubiquiti's AWS infrastructure. The attacker ran the "GetCallerIdentity" command to return the username and account information for the AWS account. |
 | **December 21st, 2020** | An attacker masked by a Surfshark VPN begins cloning Ubiquiti's GitHub Repositories. |
 | **December&nbsp;22nd,&nbsp;2020** | The Internet at the Sharp residence goes down for 30 minutes. Cloning commands continue when it comes back up, but VPN is turned off temporarily. |
-| **December 22-26th, 2020** |  Sharp manually renamed at least 18 AWS sessions that he opened to conduct the attack to make it appear as if one of five other Company-1 DevOps team members was using the [access] Key.[^1] |
+| **December 22-26th, 2020** |  *"Sharp manually renamed at least 18 AWS sessions that he opened to conduct the attack to make it appear as if one of five other Company-1 DevOps team members was using the [access] Key."*[^1] |
 | **December 26th, 2020** | Nickolas Sharp altered the lifecycle retention policy on the S3 Bucket storing the CloudTrail events to erase logs of their attack after a day. |
 | **December 28th, 2020** | Other employees detected the incident and began investigating. |
 | **January 7th, 2021** | Senior employees received a ransom email from the attacker. |
