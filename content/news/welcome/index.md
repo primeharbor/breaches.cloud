@@ -1,12 +1,15 @@
 ---
 title: "Welcome to Breaches.Cloud"
 date: "2023-05-10"
-description: "Introducing Breaches.cloud"
+description: "Welcome to Breaches.Cloud - the soon-to-be definitive source for analysis on cloud security-related breaches."
 # draft: true
 tags: ["news"]
 
+preview_image: /icons/android-chrome-384x384.png
+
 author: "Chris Farris"
 author_url: "https://www.chrisfarris.com/"
+author_twitter: @jcfarris
 ---
 
 Welcome to Breaches.Cloud - the soon-to-be definitive source for analysis on cloud security-related breaches.

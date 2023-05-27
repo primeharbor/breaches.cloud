@@ -55,10 +55,18 @@
 {{ end -}}
 <!-- og -->
 
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}" />
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="article" />
 <meta property="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+{{ if .Params.preview_image -}}
+<meta property="og:image" content="{{ .Params.preview_image | absURL }}" />
+<meta name="twitter:image" content="{{ .Params.preview_image | absURL }}">
+{{- end }}
+
 
 {{ $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{ if .IsPage -}}
@@ -78,6 +86,9 @@
 <meta name="twitter:title" content="{{ .Title }}" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="{{ .Description }}" />
+{{ if .Params.author_twitter -}}
+<meta name="twitter:creator" content="{{ .Params.author_twitter  }}">
+{{- end }}
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLF2V9KDRC"></script>
