@@ -9,7 +9,7 @@ preview_image: /icons/android-chrome-384x384.png
 
 author: "Chris Farris"
 author_url: "https://www.chrisfarris.com/"
-author_twitter: @jcfarris
+author_twitter: "@jcfarris"
 ---
 
 Welcome to Breaches.Cloud - the soon-to-be definitive source for analysis on cloud security-related breaches.
