@@ -1,7 +1,7 @@
 ---
 title: "Ubiquiti (2020)"
 date: 2023-04-13T14:38:46-04:00
-lastmod: 2023-05-11T15:48:46-04:00
+lastmod: 2023-05-27T06:48:46-04:00
 
 description: "A Cloud Security focused analysis of the Ubiquiti breach in 2020"
 
@@ -9,7 +9,7 @@ description: "A Cloud Security focused analysis of the Ubiquiti breach in 2020"
 # draft: true
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["AWS", "Insider Threat"]
+tags: ["AWS", "Insider Threat", "Data Exfiltration"]
 
 showToc: true # Do not change
 author: "Mark Gaddy"
@@ -47,12 +47,16 @@ In March, a whistleblower reached out to reporter Brian Krebs, released details 
 
 Shortly after, the FBI identified the employee as Nickolas Sharp and searched his residence. In December 2021, Nickolas Sharp was charged with four counts relating to the incident. Sharp pleaded guilty in February 2023 and is scheduled to be sentenced in May 2023.
 
+As documented in the [Government's sentencing report](US-v-Sharp-Sentencing-5-11-2023.pdf) (pg 13):
+> Sharp stole dozens of so-called secrets files from Company-1’s AWS Secrets Manager, a cloud password management tool. Sharp also stole over 1,400 AWS task definitions files, and over 1,100 GitHub code repositories where Company-1 stored its development files and proprietary code.
+
 ### Timeline
 | Date | Event |
 | ------ | ----- |
 | **December&nbsp;10th,&nbsp;2020** | An attacker logs into Ubiquiti's AWS infrastructure. The attacker ran the "GetCallerIdentity" command to return the username and account information for the AWS account. |
 | **December 21st, 2020** | An attacker masked by a Surfshark VPN begins cloning Ubiquiti's GitHub Repositories. |
 | **December&nbsp;22nd,&nbsp;2020** | The Internet at the Sharp residence goes down for 30 minutes. Cloning commands continue when it comes back up, but VPN is turned off temporarily. |
+| **December 22-26th, 2020** |  Sharp manually renamed at least 18 AWS sessions that he opened to conduct the attack to make it appear as if one of five other Company-1 DevOps team members was using the [access] Key.[^1] |
 | **December 26th, 2020** | Nickolas Sharp altered the lifecycle retention policy on the S3 Bucket storing the CloudTrail events to erase logs of their attack after a day. |
 | **December 28th, 2020** | Other employees detected the incident and began investigating. |
 | **January 7th, 2021** | Senior employees received a ransom email from the attacker. |
@@ -86,6 +90,7 @@ After Brian Krebs released his article, Ubiquiti's stock price plummeted over 20
 * Department of Justice: [Guilty Plea](https://www.justice.gov/usao-sdny/pr/former-employee-technology-company-pleads-guilty-stealing-confidential-data-and) February 2nd, 2023
 * Verge: [Report on Breach](https://www.theverge.com/2023/2/3/23584414/ubiquiti-developer-guilty-extortion-hack-security-breach-bitcoin-ransom) February 3rd, 2023
 * DOJ: [Former Employee Of Technology Company Sentenced To Six Years In Prison For Stealing Confidential Data And Extorting Company For Ransom](https://www.justice.gov/usao-sdny/pr/former-employee-technology-company-sentenced-six-years-prison-stealing-confidential) May 10th, 2023
+* Ars Technica [Ex-Ubiquiti engineer behind “breathtaking” data theft gets 6-year prison term](https://arstechnica.com/tech-policy/2023/05/ex-ubiquiti-engineer-behind-breathtaking-data-theft-gets-6-year-prison-term/) May 11th, 2023
 
 ## Cloud Security lessons learned.
 
@@ -102,3 +107,7 @@ As Sharp already had privileged access, it is unclear what role the cloning of G
 - Maintaining audit data of cloned repos
 - Using a secrets scanning service like GitGuardian or GitHub Advanced Security
 - Ensuring that every member of the GitHub organization does not have the ability to clone all the repos.
+
+--
+[^1]: [GOVERNMENT’S SENTENCING MEMORANDUM REGARDING DEFENDANT NICKOLAS SHARP](US-v-Sharp-Sentencing-5-11-2023.pdf) (pg 7)
+
