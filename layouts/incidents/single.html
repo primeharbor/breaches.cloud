@@ -18,7 +18,7 @@
     </div>
 
     <div class="post-item post-meta">
-        {{ if and (not .Params.tags) .Site.Params.hideNoTagList }}{{ else }}<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;{{ if .Params.tags }}{{ range .Params.tags }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;|&nbsp;{{ end }}{{ else }}{{ i18n "postMetaNoTag" }}{{ end }}</span>{{ end }}
+        {{ if and (not .Params.tags) .Site.Params.hideNoTagList }}{{ else }}<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;{{ if .Params.tags }}{{ range .Params.tags }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>&nbsp;|&nbsp;{{ end }}{{ else }}{{ i18n "postMetaNoTag" }}{{ end }}</span>{{ end }}
     </div>
 
     <div class="post-content markdown-body">
