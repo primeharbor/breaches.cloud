@@ -8,6 +8,7 @@ description: "Update this with a social media synopsis"
 # author: "Donald Trump"
 # author_url: "https://www.cnn.com/"
 
+showToc: false # Do not change
 
 ---
 
