@@ -5,9 +5,6 @@ lastmod: 2023-06-21T14:58:49-04:00
 
 description: "Cloud Security synopsis of the FTC action against genetic sequencing company Vitagene."
 
-# Set to false before publishing
-draft: true
-
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["S3 Buckets","CloudTrail","Logging"]
 
