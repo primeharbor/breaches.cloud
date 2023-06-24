@@ -46,7 +46,7 @@ Vitagene left approximately 2,500 health records and genetic sequences in a publ
 * July 9th, 2019 - Bloomberg publishes the first article able the incident.
 * August 2019 - Vitagene notifies customers of the breach
 * October 2020 - Vitagene changes its branding to 1Health.io
-* June 16, 2023 - FTC issues its [decision and order](decision_and_order.pdf) in the matter of **1HEALTH.IO INC., a corporation, also d/b/a VITAGENE, INC.**
+* June 16, 2023 - FTC issues its [decision and order](decision_and_order.pdf) in the matter of *1HEALTH.IO INC., a corporation, also d/b/a VITAGENE, INC.*
 
 ### Long-term Impact
 As part of the settlement with the FTC, 1Health.io (the successor company to Vitagene) must pay $75,000 and institute new privacy practices. They must submit to regular security audits and provide the findings to the FTC.
