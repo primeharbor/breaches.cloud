@@ -13,6 +13,10 @@ header.title-sub {
 	padding: 0rem 0rem 0.5rem 0rem;
 }
 
+strong {
+    font-weight: 800;
+    color: white;
+}
 
 /* Other random stuff
 --------------------------------------------------------------*/
@@ -377,6 +381,8 @@ header.title-sub {
 		float: none;
 	}
 }
+
+
 
 
 /* JCF Customizations
