@@ -13,6 +13,11 @@ header.title-sub {
 	padding: 0rem 0rem 0.5rem 0rem;
 }
 
+/*variable defined in assets/scss/_custom_var.scss*/
+strong {
+    color: var(--color-text-strong);
+}
+
 
 /* Other random stuff
 --------------------------------------------------------------*/
@@ -377,6 +382,8 @@ header.title-sub {
 		float: none;
 	}
 }
+
+
 
 
 /* JCF Customizations

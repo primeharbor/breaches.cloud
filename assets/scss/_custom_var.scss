@@ -24,3 +24,10 @@ $dark-color-divider: #006633; // Dividing Lines, table alterate color
 // $dark-color-codebg: #00FF7F; // code in backticks
 
 
+body[data-theme='light'] {
+  --color-text-strong: black;
+}
+
+body[data-theme='dark'] {
+  --color-text-strong: white;
+}
