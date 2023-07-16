@@ -3,10 +3,7 @@ title: "Office 365 (2023)"
 date: 2023-07-14T14:12:47-04:00
 lastmod: 2023-07-14T14:12:47-04:00
 
-description: "Update this with a social media and SEO synopsis"
-
-# Set to false before publishing
-draft: true
+description: "Ongoing analysis of the O365 Hack"
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
 tags: ["Logging","AzureAD","M365"]
