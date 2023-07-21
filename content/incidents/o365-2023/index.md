@@ -1,7 +1,7 @@
 ---
 title: "Office 365 (2023)"
 date: 2023-07-14T14:12:47-04:00
-lastmod: 2023-07-14T14:12:47-04:00
+lastmod: 2023-07-21T07:54:00-04:00
 
 description: "Ongoing analysis of the O365 Hack"
 
@@ -41,6 +41,7 @@ Identified victims include:
 * US Department of Commerce
 * Commerce Secretary Gina Raimondo’s email account
 * "email accounts at the House of Representatives"[^2]
+* The US Ambassador to China, Nicholas Burns
 
 ### Timeline
 | Date | Event |
@@ -51,6 +52,8 @@ Identified victims include:
 | **July 11, 2023** | Microsoft quietly discloses the incident on their [security blog](https://msrc.microsoft.com/blog/2023/07/microsoft-mitigates-china-based-threat-actor-storm-0558-targeting-of-customer-email/)  |
 | **July 12, 2023** | CISA issues an [advisory](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-193a) describing the incident   |
 | **July 14, 2023** | Microsoft discloses a [signing key](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) was compromised and used in this incident   |
+| **July 19, 2023** | Microsoft announces that the E5 Audit logs that enabled detection of this incident will now be available to all customers. |
+| **July 20, 2023** | [WSJ Reports](https://www.wsj.com/articles/u-s-ambassador-to-china-hacked-in-china-linked-spying-operation-f03de3e4?st=l642zzi8wtmw1bo&reflink=desktopwebshare_permalink) the US Ambassador to China was one of the victims |
 
 ### Attribution / Perpetrator
 Microsoft has designated this threat actor ***Storm-0558*** "a China-based threat actor with espionage objectives" and "maintain[s] high confidence that Storm-0558 operates as its own distinct group".
@@ -61,15 +64,18 @@ So far there have been [calls](https://arstechnica.com/security/2023/07/microsof
 
 > “Every organization using a technology service like Microsoft 365 should have access to logging and other security data out of the box to reasonably detect malicious cyber activity,” a senior CISA official said Wednesday on a press call discussing the incident.
 
+Microsoft was forced to concede this revenue stream and will make these logs free starting in September 2023.
+
 ## Summary of Coverage
 
-* CISA: [Enhanced Monitoring to Detect APT Activity Targeting Outlook Online](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-193a) - July 12th, 2023
 * Microsoft: [Microsoft mitigates China-based threat actor Storm-0558 targeting of customer email](https://msrc.microsoft.com/blog/2023/07/microsoft-mitigates-china-based-threat-actor-storm-0558-targeting-of-customer-email/) - July 11th, 2023
-* Microsoft: [Analysis of Storm-0558 techniques for unauthorized email access](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) - July 14th, 2023
-* Wired: [](https://www.wired.com/story/microsoft-cloud-attack-china-hackers/?redirectURL=%2Fstory%2Fmicrosoft-cloud-attack-china-hackers%2F) - July 12th, 2023
+* CISA: [Enhanced Monitoring to Detect APT Activity Targeting Outlook Online](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-193a) - July 12th, 2023
+* Wired: [How a Cloud Flaw Gave Chinese Spies a Key to Microsoft’s Kingdom](https://www.wired.com/story/microsoft-cloud-attack-china-hackers/?redirectURL=%2Fstory%2Fmicrosoft-cloud-attack-china-hackers%2F) - July 12th, 2023
 * CNN: [China-based hackers breached US government email accounts, Microsoft and White House say](https://www.cnn.com/2023/07/12/politics/china-based-hackers-us-government-email-intl-hnk/index.html) - July 12th, 2023
-* Ars Technica: [Microsoft takes pains to obscure role in 0-days that caused email breach](https://arstechnica.com/security/2023/07/microsoft-takes-pains-to-obscure-role-in-0-days-that-caused-email-breach/) - July 14th, 2023
 * WSJ: [China Hacking Was Undetectable for Some Who Had Less Expensive Microsoft Services](https://www.wsj.com/articles/china-hacking-was-undetectable-for-some-who-had-less-expensive-microsoft-services-58730629) - July 13, 2023
+* Microsoft: [Analysis of Storm-0558 techniques for unauthorized email access](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) - July 14th, 2023
+* Ars Technica: [Microsoft takes pains to obscure role in 0-days that caused email breach](https://arstechnica.com/security/2023/07/microsoft-takes-pains-to-obscure-role-in-0-days-that-caused-email-breach/) - July 14th, 2023
+* CISA: [CISA and Microsoft Partnership Expands Access to Logging Capabilities Broadly](https://www.cisa.gov/news-events/news/cisa-and-microsoft-partnership-expands-access-logging-capabilities-broadly) - July 19th, 2023
 
 ## Cloud Security Lessons Learned
 
