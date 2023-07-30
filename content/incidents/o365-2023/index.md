@@ -43,7 +43,7 @@ Identified victims include:
 * "email accounts at the House of Representatives"[^2]
 * The US Ambassador to China, Nicholas Burns
 
-In a follow up research post, cloud security company Wiz noted:
+In a [follow up research post](https://www.wiz.io/blog/storm-0558-compromised-microsoft-key-enables-authentication-of-countless-micr), cloud security company Wiz noted:
 
 > "Our researchers concluded that the compromised MSA key could have allowed the threat actor to forge access tokens for multiple types of Azure Active Directory applications, including every application that supports personal account authentication, such as SharePoint, Teams, OneDrive, customers’ applications that support the “login with Microsoft” functionality, and multi-tenant applications in certain conditions."
 
@@ -62,7 +62,7 @@ In a follow up research post, cloud security company Wiz noted:
 | **July 14, 2023** | Microsoft discloses a [signing key](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) was compromised and used in this incident   |
 | **July 19, 2023** | Microsoft announces that the E5 Audit logs that enabled detection of this incident will now be available to all customers. |
 | **July 20, 2023** | [WSJ Reports](https://www.wsj.com/articles/u-s-ambassador-to-china-hacked-in-china-linked-spying-operation-f03de3e4?st=l642zzi8wtmw1bo&reflink=desktopwebshare_permalink) the US Ambassador to China was one of the victims |
-| **July 21, 2023** | Cloud Security firm [Wiz](https://wiz.io/) publishes a [blog post](https://www.wiz.io/blog/storm-0558-compromised-microsoft-key-enables-authentication-of-countless-micr) which outlines broader _potential_ impacts due to the signing key leak.  |
+| **July 21, 2023** | Cloud Security firm [Wiz](https://wiz.io/) publishes a [blog post](https://www.wiz.io/blog/storm-0558-compromised-microsoft-key-enables-authentication-of-countless-micr) which outlines broader _potential_ impacts due to the signing key leak. ([Archived Copy](Compromised%20Microsoft%20Key%20More%20Impactful%20Than%20We%20Thought%20-%20Wiz%20Blog.pdf))  |
 | **July 27, 2023** | Sen. Wyden [sends letter](wyden_letter_to_cisa_doj_ftc_re_2023_microsoft_breach.pdf) to the Attorney General and heads of CISA and the FTC asking them to investigate Microsoft's security practices. |
 
 
