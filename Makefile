@@ -6,6 +6,7 @@
 # so as not to conflict with base hugo)
 
 PORT=1315
+HUGO=hugox
 
 
 clean:
@@ -13,26 +14,26 @@ clean:
 
 test:
 	open http://localhost:$(PORT)
-	hugox server -F -p $(PORT)
+	$(HUGO) server -F -p $(PORT)
 
-test-preview:
+test-drafts:
 	open http://localhost:$(PORT)
-	hugox server -FD --config preview-config.toml -p $(PORT)
+	$(HUGO) server -FD --config preview-config.toml -p $(PORT)
 
 incident:
 	mkdir content/incidents/$(name)
-	hugox new incidents/$(name)/index.md
+	$(HUGO) new incidents/$(name)/index.md
 
 post:
-	hugox new news/$(name).md
+	$(HUGO) new news/$(name).md
 
 # Create Using the main config, all current and future posts, but nothing in draft
 main:
-	hugox -F
+	$(HUGO) -F
 
 # Create Using the preview config, all current and future posts, both published & in draft
 preview:
-	hugox -FD --config preview-config.toml
+	$(HUGO) -FD --config preview-config.toml
 
 force-build:
 	git commit -m "Force Build" --allow-empty && git push
