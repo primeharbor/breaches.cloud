@@ -1,7 +1,7 @@
 ---
 title: "Office 365 (2023)"
 date: 2023-07-14T14:12:47-04:00
-lastmod: 2023-07-21T07:54:00-04:00
+lastmod: 2023-08-11T10:13:00-04:00
 
 description: "Ongoing analysis of the O365 Hack"
 
