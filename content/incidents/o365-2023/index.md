@@ -1,7 +1,7 @@
 ---
 title: "Office 365 (2023)"
 date: 2023-07-14T14:12:47-04:00
-lastmod: 2023-08-11T10:13:00-04:00
+lastmod: 2023-08-27T04:48:00-04:00
 
 description: "Ongoing analysis of the O365 Hack"
 
@@ -65,7 +65,7 @@ In a [follow up research post](https://www.wiz.io/blog/storm-0558-compromised-mi
 | **July 21, 2023** | Cloud Security firm [Wiz](https://wiz.io/) publishes a [blog post](https://www.wiz.io/blog/storm-0558-compromised-microsoft-key-enables-authentication-of-countless-micr) which outlines broader _potential_ impacts due to the signing key leak. ([Archived Copy](Compromised%20Microsoft%20Key%20More%20Impactful%20Than%20We%20Thought%20-%20Wiz%20Blog.pdf))  |
 | **July 27, 2023** | Sen. Wyden [sends letter](wyden_letter_to_cisa_doj_ftc_re_2023_microsoft_breach.pdf) to the Attorney General and heads of CISA and the FTC asking them to investigate Microsoft's security practices. |
 | **August 11, 2023** | DHS [announces](https://www.dhs.gov/news/2023/08/11/department-homeland-securitys-cyber-safety-review-board-conduct-review-cloud) the Cyber Safety Review Board to Conduct Review on Cloud Security, specificaly focusing on this incident |
-
+| **August 15, 2023** | US Representative Don Bacon [discloses](https://twitter.com/RepDonBacon/status/1691187487350177793?s=20) he was [notified by the FBI](https://www.washingtonpost.com/technology/2023/08/14/microsoft-china-hack-congress/) his personal and political email accounts were targeted by the attacker.  |
 
 ### Attribution / Perpetrator
 Microsoft has designated this threat actor ***Storm-0558*** "a China-based threat actor with espionage objectives" and "maintain[s] high confidence that Storm-0558 operates as its own distinct group".

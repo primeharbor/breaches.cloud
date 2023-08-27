@@ -1,6 +1,7 @@
 ---
 title: "FTX Bankruptcy"
 date: 2023-04-16T10:35:11-04:00
+lastmod: 2023-08-27T04:42:00-04:00
 
 description: "An analysis of FTX's cloud security practices leading up to their bankruptcy"
 
@@ -42,6 +43,8 @@ The new management, supported by a number of law firms, [Kroll](https://www.krol
 | **November 12th, 2022** | FTX's new management [acknowledges](https://www.cnbc.com/2022/11/12/ftx-says-it-is-investigating-unauthorized-transactions.html) unauthorized transfers of crypto-currency and begins to move funds to off-line (cold) wallets.|
 | **November 17th, 2022** | John Ray files an [initial statement](Nov17Filing.pdf) with the Bankruptcy Court stating, "Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here."|
 | **April 9th, 2023** | FTX publishes "[First Interim Report of John J. Ray III to The Independent Directors on Control Failures at the FTX Exchanges](FirstInterimReport.pdf)," which outlines the bulk of the cloud security issues documented here. |
+| **August 25th, 2023** | Kroll, the firm that was contracted to manage FTX Creditors, [suffers breach due to SIM Swapping attack](https://www.kroll.com/en/about-us/news/security-incident). Apparently scammers are using this to [conduct phishing attacks](https://krebsonsecurity.com/2023/08/kroll-employee-sim-swapped-for-crypto-investor-data/#more-64675) against FTX creditors. |
+
 
 ### Attribution / Perpetrator
 
