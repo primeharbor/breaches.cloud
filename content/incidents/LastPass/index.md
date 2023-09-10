@@ -1,6 +1,7 @@
 ---
 title: "LastPass"
-date: 2023-03-18T10:53:42-04:00
+date:    2023-03-18T10:53:42-04:00
+lastmod: 2023-09-10T16:00:00-04:00
 
 description: "A Cloud Security focused analysis of the LastPass incidents of 2022"
 
@@ -55,6 +56,7 @@ Per LastPass's disclosures, their production environment was on-prem, and only t
 | **December 22nd, 2022** | LastPass discloses that "an unknown threat actor accessed a cloud-based storage environment" and "The threat actor was also able to copy a backup of customer vault data".|
 | **January 3rd, 2023** | Class Action Suit filed in the US District Court of Massachusetts|
 | **March 1st, 2023** | LastPass discloses how the threat actor compromised both engineers to execute both the first and second incidents.|
+| **September 5th, 2023** | Brian Krebs [reports](https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/) that more than US$35 Million in Crypto have been stolen from over 150 individuals.|
 
 ### Attribution / Perpetrator
 Per the March 1st disclosure:
@@ -72,6 +74,7 @@ Per the March 1st disclosure:
 ) - March 1, 2023
 * LastPass: [Incident 1 Report](https://support.lastpass.com/help/incident-1-additional-details-of-the-attack) - undated support post
 * LastPass: [Incident 2 Report](https://support.lastpass.com/help/incident-2-additional-details-of-the-attack) - undated support post
+* Krebs on Security: [Experts Fear Crooks are Cracking Keys Stolen in LastPass Breach](https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/)
 
 
 ## Cloud Security Implications of this incident.
