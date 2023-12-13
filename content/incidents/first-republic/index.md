@@ -3,7 +3,7 @@ title: "First Republic Bank"
 date: 2023-12-13T04:16:54-05:00
 lastmod: 2023-12-13T04:16:54-05:00
 
-description: "Update this with a social media and SEO synopsis"
+description: "Former Employee accesses First Republic Bank systems after being terminated and deletes resources"
 
 # Set to false before publishing
 draft: false
