@@ -5,11 +5,8 @@ lastmod: 2024-01-20T20:14:38-05:00
 
 description: "Ongoing analysis of the Office 365 attack against Microsoft by Midnight Blizzard"
 
-# Set to false before publishing
-draft: true
-
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["Logging","AzureAD","M365", "Cloud Hygiene"]
+tags: ["AzureAD","M365", "Cloud Hygiene", "MFA"]
 
 showToc: true # Do not change
 author: "Chris Farris"
