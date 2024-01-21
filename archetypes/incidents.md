@@ -32,6 +32,13 @@ Form a brief synopsis of the incident. No more than two to three paragraphs.
 
 ### Details of the Incident
 
+### Timeline
+| Date | Event |
+| ------ | ----- |
+| **May 15, 2023** | Storm-0558 begins to use forged authentication tokens to access mailboxes |
+| **June 16, 2023** | Federal Agency notices abnormal `MailItemsAccessed` in M365 Audit Logs |
+| **June 16, 2023** | Microsoft disabled stolen keys and disables  |
+
 ### Attribution / Perpetrator
 
 ### Long-term Impact
@@ -39,7 +46,6 @@ Form a brief synopsis of the incident. No more than two to three paragraphs.
 ## Summary of Coverage
 * Source: [News Article One](FIXME) Month Day, Year
 * Source: [News Article Two](FIXME) Month Day, Year
-* [Press Release](FIXME) Month Day, Year
-* [Victim Blog Post 1](FIXME) Month Day, Year
+
 
 ## Cloud Security Lessons Learned

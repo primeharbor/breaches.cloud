@@ -41,6 +41,8 @@ In July 2020, Drizly, an on-demand alcohol delivery service, suffered a data bre
 | **July 28th, 2020** | Drizly releases a public statement regarding the breach. |
 | **October&nbsp;24th,&nbsp;2022** | FTC begins investigating Drizly. |
 | **January&nbsp;10th,&nbsp;2023** | FTC finalizes a complaint against Drizly, requiring them to destroy any personal data collected if it's not necessary to provide products or services. If it's essential, they must outline a specific retention schedule. Lastly, Drizly and its CEO must implement a security program and establish safeguards to protect against further security incidents. |
+| **January&nbsp;15th,&nbsp;2024** | Uber [announces](https://www.axios.com/2024/01/15/uber-drizly-acquisition-shutters) it is shutting down Drizly, which it acquired in Feb 2021 for $1.1 billion.
+
 
 ### Attribution / Perpetrator
 
@@ -52,6 +54,8 @@ The FTC initiated an investigation looking at Drizly's security practices. The F
 
 Drizly was also sued by those whose data was leaked. The settlement is valued between $3.35 million and $7 million.
 
+The division was shutdown by Uber in March 2024.
+
 ## Summary of Coverage
 
 - TechCrunch: [Drizly 2020 Data Breach](https://techcrunch.com/2020/07/28/drizly-data-breach/) - July 28th, 2020
@@ -61,6 +65,7 @@ Drizly was also sued by those whose data was leaked. The settlement is valued be
 - FTC: [Drizly Complaint](https://www.ftc.gov/system/files/ftc_gov/pdf/202-3185-Drizly-Complaint.pdf) - October 24th, 2022
 - BeerExchange: [Drizly Data Breach](https://thebeerexchange.io/drizly-data-breach/) - April 5th, 2023
 - FTC: [Drizly LLC.](https://www.ftc.gov/legal-library/browse/cases-proceedings/2023185-drizly-llc-matter) - January 10th, 2023
+- Axios: [Scoop: Uber shutting down alcohol delivery service Drizly](https://www.axios.com/2024/01/15/uber-drizly-acquisition-shutters) - Janurary 15th, 2024
 
 ## Cloud Security lessons learned
 
