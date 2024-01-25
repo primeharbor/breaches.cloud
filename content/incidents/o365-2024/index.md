@@ -61,6 +61,8 @@ In its initial disclosure Microsoft states:
 * Microsoft: [Microsoft Actions Following Attack by Nation State Actor Midnight Blizzard](https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/) January 19, 2024
 * Securities and Exchange Commission: [Form 8-K](https://www.sec.gov/ix?doc=/Archives/edgar/data/789019/000119312524011295/d708866d8k.htm) January 17, 2024
 * Ars Technica: [Microsoft network breached through password-spraying by Russian-state hackers](https://arstechnica.com/security/2024/01/microsoft-network-breached-through-password-spraying-by-russian-state-hackers/) January 19, 2024
+* CyberScoop: [Microsoft critics accuse the firm of ‘negligence’ in latest breach](https://cyberscoop.com/microsoft-critics-accuse-the-firm-of-negligence-in-latest-breach/) January 23, 2024
+
 
 ## Cloud Security Lessons Learned
 
