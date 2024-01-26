@@ -49,6 +49,8 @@ Per Microsoft (emphasis mine):
 
 Microsoft specifically placed the blame on [Midnight Blizzard](https://www.microsoft.com/en-us/security/blog/tag/midnight-blizzard-nobelium/), otherwise known as [Cozy Bear](https://web.archive.org/web/20201215193550/https://www.crowdstrike.com/blog/who-is-cozy-bear/) or [APT29](https://attack.mitre.org/groups/G0016/). This group attributed to the Russian SVR was believed to be responsible for the Solar Winds compromise and the DNC hack of 2015.
 
+Hewlett Packard Enterprise [disclosed](https://www.sec.gov/ix?doc=%2FArchives%2Fedgar%2Fdata%2F1645590%2F000164559024000009%2Fhpe-20240119.htm) a similar attack from Midnight Blizzard against their "cloud-based email environment."
+> "we now believe that the threat actor accessed and exfiltrated data beginning in May 2023 from a small percentage of HPE mailboxes belonging to individuals in our cybersecurity, go-to-market, business segments, and other functions."
 
 ### Long-term Impact
 
