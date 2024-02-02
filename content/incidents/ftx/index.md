@@ -44,11 +44,14 @@ The new management, supported by a number of law firms, [Kroll](https://www.krol
 | **November 17th, 2022** | John Ray files an [initial statement](Nov17Filing.pdf) with the Bankruptcy Court stating, "Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here."|
 | **April 9th, 2023** | FTX publishes "[First Interim Report of John J. Ray III to The Independent Directors on Control Failures at the FTX Exchanges](FirstInterimReport.pdf)," which outlines the bulk of the cloud security issues documented here. |
 | **August 25th, 2023** | Kroll, the firm that was contracted to manage FTX Creditors, [suffers breach due to SIM Swapping attack](https://www.kroll.com/en/about-us/news/security-incident). Apparently scammers are using this to [conduct phishing attacks](https://krebsonsecurity.com/2023/08/kroll-employee-sim-swapped-for-crypto-investor-data/#more-64675) against FTX creditors. |
+| **January 24th, 2024** | Three individuals were [indicted](USA-v-Powell-Order-on-Motion-for-Miscellaneous-Relief-1-25-2024.pdf) in the case of the missing $400M in crypto-currency |
 
 
 ### Attribution / Perpetrator
 
-The identity of the perpetrator of the *"November 2022 Breach"* has not been identified. However, Sam Bankman-Fried has been [indicted](https://www.justice.gov/usao-sdny/press-release/file/1557571/download) on multiple counts related to his management of the FTX companies. A number of other senior-level employees of the company, including Bankman-Fried's co-founders, are cooperating with the Department of Justice.
+~~The identity of the perpetrator of the *"November 2022 Breach"* has not been identified.~~ The DOJ has [indicted](USA-v-Powell-Order-on-Motion-for-Miscellaneous-Relief-1-25-2024.pdf) three individuals for SIM Swapping in relation to a $400M crypto-currency theft that occured around this time.
+
+Sam Bankman-Fried has been [indicted](https://www.justice.gov/usao-sdny/press-release/file/1557571/download) on multiple counts related to his management of the FTX companies. A number of other senior-level employees of the company, including Bankman-Fried's co-founders, are cooperating with the Department of Justice.
 
 
 ## Summary of coverage & other resources
@@ -65,7 +68,8 @@ The identity of the perpetrator of the *"November 2022 Breach"* has not been ide
 * CoinDesk: [FTX Being Advised by Cybersecurity Firm Sygnia on Hack Inquiry, CEO Ray Says](https://www.coindesk.com/policy/2023/02/06/ftx-being-advised-by-cybersecurity-firm-sygnia-on-hack-inquiry-ceo-ray-says/) - February 6th, 2023
 * FTX: [FIRST INTERIM REPORT OF JOHN J. RAY III TO THE INDEPENDENT DIRECTORS ON CONTROL FAILURES AT THE FTX EXCHANGES](FirstInterimReport.pdf) - April 9th, 2023
 * TechTarget: [FTX bankruptcy filing highlights security failures](https://www.techtarget.com/searchsecurity/news/365535116/FTX-bankruptcy-filing-highlights-security-failures) - April 11th 2023
-
+* KrebsOnSecurity: [Arrests in $400M SIM-Swap Tied to Heist at FTX?
+](https://krebsonsecurity.com/2024/02/arrests-in-400m-sim-swap-tied-to-heist-at-ftx/) - February 2nd, 2024
 
 ## Cloud Security lessons learned
 
