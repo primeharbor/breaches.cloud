@@ -1,7 +1,7 @@
 ---
 title: "FTX Bankruptcy"
 date: 2023-04-16T10:35:11-04:00
-lastmod: 2023-08-27T04:42:00-04:00
+lastmod: 2024-02-02T09:20:00-04:00
 
 description: "An analysis of FTX's cloud security practices leading up to their bankruptcy"
 
