@@ -1,7 +1,7 @@
 ---
 title: "Office 365 (2024 - Midnight Blizzard)"
 date: 2024-01-20T20:14:38-05:00
-lastmod: 2024-01-20T20:14:38-05:00
+lastmod: 2024-02-08T05:14:38-05:00
 
 description: "Ongoing analysis of the Office 365 attack against Microsoft by Midnight Blizzard"
 
@@ -70,7 +70,7 @@ In its initial disclosure Microsoft states:
 * Ars Technica: [Microsoft network breached through password-spraying by Russian-state hackers](https://arstechnica.com/security/2024/01/microsoft-network-breached-through-password-spraying-by-russian-state-hackers/) January 19, 2024
 * CyberScoop: [Microsoft critics accuse the firm of ‘negligence’ in latest breach](https://cyberscoop.com/microsoft-critics-accuse-the-firm-of-negligence-in-latest-breach/) January 23, 2024
 * Microsoft: [Midnight Blizzard: Guidance for responders on nation-state attack](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/) ([pdf archive](Guidance_for_responders_on_nation-state_attack.pdf))
-
+* SpectorOps: [Microsoft Breach — What Happened? What Should Azure Admins Do?](https://posts.specterops.io/microsoft-breach-what-happened-what-should-azure-admins-do-da2b7e674ebc) February 2, 2024
 
 ## Cloud Security Lessons Learned
 
@@ -79,6 +79,7 @@ From the highlighted paragraph a number of very concerning things are presented:
 2. Microsoft didn't enforce 2FA on accounts in it's non prod environment, if the Russians were able to use a password spray attack.
 3. There was a **trust relationship** between this "legacy non-production test tenant", and the primary Microsoft O365 tenant that their most senior executives used.
 4. Self-Enrollment for MFA should expire promptly if not enabled.
+5. Based on the [SpectorOps analysis](https://posts.specterops.io/microsoft-breach-what-happened-what-should-azure-admins-do-da2b7e674ebc) verify that there are no Service Principals belonging to foreign App Registrations in your production tenant.
 
 
 
