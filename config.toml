@@ -175,6 +175,18 @@ url = "https://primeharbor.com"
 weight = 3
 
 
+[[menu.resources]]
+name = "AWS Customer Incidents"
+url = "https://github.com/ramimac/aws-customer-security-incidents"
+weight = 2
+
+[[menu.resources]]
+name = "TrailDiscover"
+url = "https://traildiscover.cloud/"
+weight = 2
+
+
+
 #
 # Final Stuff
 #

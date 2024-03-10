@@ -165,15 +165,27 @@ name = "GitHub"
 url = "https://github.com/primeharbor/breaches.cloud"
 weight = 1
 
-# [[menu.link]]
-# name = "Twitter"
-# url = "https://twitter.com/dsrkafuu"
-# weight = 2
+[[menu.link]]
+name = "Twitter"
+url = "https://twitter.com/jcfarris"
+weight = 2
 
 [[menu.link]]
 name = "PrimeHarbor"
 url = "https://primeharbor.com"
 weight = 3
+
+
+[[menu.resources]]
+name = "AWS Customer Incidents"
+url = "https://github.com/ramimac/aws-customer-security-incidents"
+weight = 2
+
+[[menu.resources]]
+name = "TrailDiscover"
+url = "https://traildiscover.cloud/"
+weight = 2
+
 
 
 #

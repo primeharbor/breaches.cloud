@@ -11,6 +11,19 @@
             {{ end }}
         </ul>
     </div>
+
+    <!-- links -->
+    <div class="sidebar-item sidebar-links">
+        <h3>Resources</h3>
+        <ul>
+            {{ range .Site.Menus.resources }}
+            <li>
+                <a href="{{ .URL }}" target="_blank"><span>{{ .Name }}</span></a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+
     <!-- tags -->
     <div class="sidebar-item sidebar-tags">
         <h3>{{ i18n "sidebarTags" }}</h3>
