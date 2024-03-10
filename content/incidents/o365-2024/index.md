@@ -1,12 +1,12 @@
 ---
 title: "Office 365 (2024 - Midnight Blizzard)"
 date: 2024-01-20T20:14:38-05:00
-lastmod: 2024-02-08T05:14:38-05:00
+lastmod: 2024-03-09T05:43:38-05:00
 
 description: "Ongoing analysis of the Office 365 attack against Microsoft by Midnight Blizzard"
 
 # This is not used for SEO, but allows users on the site to view incidents by keyword
-tags: ["AzureAD","M365", "Cloud Hygiene", "MFA"]
+tags: ["AzureAD","M365", "Cloud Hygiene", "MFA", "Secrets"]
 
 showToc: true # Do not change
 author: "Chris Farris"
@@ -40,7 +40,10 @@ The pivot from a test tenant to the Microsoft Corporate tenant involved fake OAu
 
 Midnight Blizzard also used [Exchange Web Services](https://learn.microsoft.com/en-us/exchange/client-developer/exchange-web-services/ews-applications-and-the-exchange-architecture) and residential IP addresses to disguise it's activity.
 
-
+In March, a little less that two months after the initial disclosure, Microsoft admits
+> In recent weeks, we have seen evidence that Midnight Blizzard is using information initially exfiltrated from our corporate email systems to gain, or attempt to gain, unauthorized access. This has included access to some of the company’s source code repositories and internal systems. To date we have found no evidence that Microsoft-hosted customer-facing systems have been compromised.
+>
+> ...Midnight Blizzard is attempting to use secrets of different types it has found. Some of these secrets were shared between customers and Microsoft in email...
 
 ### Timeline
 | Date | Event |
@@ -49,6 +52,8 @@ Midnight Blizzard also used [Exchange Web Services](https://learn.microsoft.com/
 | **January 12, 2024** | Microsoft detects compromise of their corporate systems |
 | **January 19, 2024** | Microsoft disclosed the incident in a SEC filing and on their blog |
 | **January 25, 2024** | Microsoft reveals more about the trade craft used by APT29 |
+| **March 08, 2024** | Microsoft [disclosed](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/) APT29 compromised source code repositories and customer secrets shared in email.  |
+
 
 ### Attribution / Perpetrator
 
@@ -69,8 +74,10 @@ In its initial disclosure Microsoft states:
 * Securities and Exchange Commission: [Form 8-K](https://www.sec.gov/ix?doc=/Archives/edgar/data/789019/000119312524011295/d708866d8k.htm) January 17, 2024
 * Ars Technica: [Microsoft network breached through password-spraying by Russian-state hackers](https://arstechnica.com/security/2024/01/microsoft-network-breached-through-password-spraying-by-russian-state-hackers/) January 19, 2024
 * CyberScoop: [Microsoft critics accuse the firm of ‘negligence’ in latest breach](https://cyberscoop.com/microsoft-critics-accuse-the-firm-of-negligence-in-latest-breach/) January 23, 2024
-* Microsoft: [Midnight Blizzard: Guidance for responders on nation-state attack](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/) ([pdf archive](Guidance_for_responders_on_nation-state_attack.pdf))
+* Microsoft: [Midnight Blizzard: Guidance for responders on nation-state attack](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/) ([pdf archive](Guidance_for_responders_on_nation-state_attack.pdf)) January 25, 2024
 * SpectorOps: [Microsoft Breach — What Happened? What Should Azure Admins Do?](https://posts.specterops.io/microsoft-breach-what-happened-what-should-azure-admins-do-da2b7e674ebc) February 2, 2024
+* Microsoft: [Update on Microsoft Actions Following Attack by Nation State Actor Midnight Blizzard](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/) March 08, 2024
+
 
 ## Cloud Security Lessons Learned
 
