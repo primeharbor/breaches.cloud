@@ -1,7 +1,7 @@
 ---
-title: "Office 365 (2024 - Midnight Blizzard)"
+title: "Microsoft (Midnight Blizzard)"
 date: 2024-01-20T20:14:38-05:00
-lastmod: 2024-03-09T05:43:38-05:00
+lastmod: 2024-04-13T19:43:38-05:00
 
 description: "Ongoing analysis of the Office 365 attack against Microsoft by Midnight Blizzard"
 
@@ -17,7 +17,7 @@ victim: "Microsoft"
 incident_start_date: 2023-11-01
 incident_end_date: 2024-01-12
 disclosure_date: 2024-01-19
-final_status: "Ongoing"
+final_status: "Investigation ongoing"
 
 ---
 
@@ -53,6 +53,7 @@ In March, a little less that two months after the initial disclosure, Microsoft 
 | **January 19, 2024** | Microsoft disclosed the incident in a SEC filing and on their blog |
 | **January 25, 2024** | Microsoft reveals more about the trade craft used by APT29 |
 | **March 08, 2024** | Microsoft [disclosed](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/) APT29 compromised source code repositories and customer secrets shared in email.  |
+| **April 11, 2024** | CISA [issued additional directives](https://www.cisa.gov/news-events/news/cisa-directs-federal-agencies-immediately-mitigate-significant-risk-russian-state-sponsored-cyber) to federal agencies in the wake of the Midnight Blizzard incident |
 
 
 ### Attribution / Perpetrator
@@ -77,7 +78,7 @@ In its initial disclosure Microsoft states:
 * Microsoft: [Midnight Blizzard: Guidance for responders on nation-state attack](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/) ([pdf archive](Guidance_for_responders_on_nation-state_attack.pdf)) January 25, 2024
 * SpectorOps: [Microsoft Breach — What Happened? What Should Azure Admins Do?](https://posts.specterops.io/microsoft-breach-what-happened-what-should-azure-admins-do-da2b7e674ebc) February 2, 2024
 * Microsoft: [Update on Microsoft Actions Following Attack by Nation State Actor Midnight Blizzard](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/) March 08, 2024
-
+* CISA: [SVR Cyber Actors Adapt Tactics for Initial Cloud Access](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-057a) February 26, 2024
 
 ## Cloud Security Lessons Learned
 

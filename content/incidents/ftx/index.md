@@ -1,7 +1,7 @@
 ---
 title: "FTX Bankruptcy"
 date: 2023-04-16T10:35:11-04:00
-lastmod: 2024-02-02T09:20:00-04:00
+lastmod: 2024-04-13T16:43:38-05:00
 
 description: "An analysis of FTX's cloud security practices leading up to their bankruptcy"
 
@@ -45,13 +45,13 @@ The new management, supported by a number of law firms, [Kroll](https://www.krol
 | **April 9th, 2023** | FTX publishes "[First Interim Report of John J. Ray III to The Independent Directors on Control Failures at the FTX Exchanges](FirstInterimReport.pdf)," which outlines the bulk of the cloud security issues documented here. |
 | **August 25th, 2023** | Kroll, the firm that was contracted to manage FTX Creditors, [suffers breach due to SIM Swapping attack](https://www.kroll.com/en/about-us/news/security-incident). Apparently scammers are using this to [conduct phishing attacks](https://krebsonsecurity.com/2023/08/kroll-employee-sim-swapped-for-crypto-investor-data/#more-64675) against FTX creditors. |
 | **January 24th, 2024** | Three individuals were [indicted](USA-v-Powell-Order-on-Motion-for-Miscellaneous-Relief-1-25-2024.pdf) in the case of the missing $400M in crypto-currency |
-
+| **March 28th, 2024** | FTX's CEO, Sam Bankman-Fried, was [sentenced](https://www.justice.gov/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) to 25 years in prison resulting from his conviction of multiple counts of fraud |
 
 ### Attribution / Perpetrator
 
-~~The identity of the perpetrator of the *"November 2022 Breach"* has not been identified.~~ The DOJ has [indicted](USA-v-Powell-Order-on-Motion-for-Miscellaneous-Relief-1-25-2024.pdf) three individuals for SIM Swapping in relation to a $400M crypto-currency theft that occured around this time.
+~~The identity of the perpetrator of the *"November 2022 Breach"* has not been identified.~~ The DOJ has [indicted](USA-v-Powell-Order-on-Motion-for-Miscellaneous-Relief-1-25-2024.pdf) three individuals for SIM Swapping in relation to a $400M crypto-currency theft that occurred around this time.
 
-Sam Bankman-Fried has been [indicted](https://www.justice.gov/usao-sdny/press-release/file/1557571/download) on multiple counts related to his management of the FTX companies. A number of other senior-level employees of the company, including Bankman-Fried's co-founders, are cooperating with the Department of Justice.
+Sam Bankman-Fried has been [convicted](https://www.justice.gov/usao-sdny/press-release/file/1557571/download) on multiple counts related to his management of the FTX companies. He was sentenced to 25 years in prison, and ordered to forfeit $11 billion. A number of other senior-level employees of the company, including Bankman-Fried's co-founders, are cooperating with the Department of Justice.
 
 
 ## Summary of coverage & other resources
@@ -70,6 +70,7 @@ Sam Bankman-Fried has been [indicted](https://www.justice.gov/usao-sdny/press-re
 * TechTarget: [FTX bankruptcy filing highlights security failures](https://www.techtarget.com/searchsecurity/news/365535116/FTX-bankruptcy-filing-highlights-security-failures) - April 11th 2023
 * KrebsOnSecurity: [Arrests in $400M SIM-Swap Tied to Heist at FTX?
 ](https://krebsonsecurity.com/2024/02/arrests-in-400m-sim-swap-tied-to-heist-at-ftx/) - February 2nd, 2024
+* DOJ: [Samuel Bankman-Fried Sentenced to 25 Years for His Orchestration of Multiple Fraudulent Schemes](https://www.justice.gov/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes)
 
 ## Cloud Security lessons learned
 
