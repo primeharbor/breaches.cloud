@@ -25,7 +25,7 @@ In July of 2023, Microsoft [disclosed](https://msrc.microsoft.com/blog/2023/07/m
 
 As part of the [Cyber Safety Review Board investigation](CSRB_Review_of_the_Summer_2023_MEO_Intrusion_Final_508c.pdf) of this incident, [CISA](https://www.cisa.gov/) issued a number of findings citing Microsoft's negligence in securing their cloud infrastructure and make recommendations to both Microsoft and all cloud service providers.
 
-From their [press-release](https://www.dhs.gov/news/2024/04/02/cyber-safety-review-board-releases-report-microsoft-online-exchange-incident-summer:
+From the CISA [press-release](https://www.dhs.gov/news/2024/04/02/cyber-safety-review-board-releases-report-microsoft-online-exchange-incident-summer):
 > “Cloud computing is some of the most critical infrastructure we have, as it hosts sensitive data and powers business operations across our economy,” said DHS Under Secretary of Policy and CSRB Chair Robert Silvers. “It is imperative that cloud service providers prioritize security and build it in by design."
 
 <!--more--> <!-- This separates the synopsis from the main body -->
