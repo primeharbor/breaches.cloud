@@ -1,7 +1,7 @@
 ---
 title: "Snowflake"
 date: 2024-06-30T11:08:05-04:00
-lastmod: 2024-07-12T11:08:05-04:00
+lastmod: 2024-10-16T06:55:05-04:00
 
 description: "Analysis of the Snowflake customer data breaches of 2024"
 
@@ -64,7 +64,7 @@ This first came to light when...
 | **May 31st, 2024** | Mitiga publishes [the first report](https://www.mitiga.io/blog/tactical-guide-to-threat-hunting-in-snowflake-environments) on issues with Snowflake breaches |
 | **June 10th, 2024** | [Mandiant releases report](https://cloud.google.com/blog/topics/threat-intelligence/unc5537-snowflake-data-theft-extortion) confirming no breach with Snowflake itself and attributing the attack to UNC5537. |
 | **July 9th, 2024** | Snowflake [finally allows customers to force MFA](https://www.snowflake.com/blog/snowflake-admins-enforce-mandatory-mfa/) on all their users |
-
+| **October 16th, 2024**| [Class Action Lawsuit filed against TicketMaster](https://www.hollywoodreporter.com/business/business-news/live-nation-lawsuit-ticketmaster-data-breach-1236031775/) for "neglecting to implement proper data protection procedures, including “vendor management necessary to protect” consumers’ personally identifiable information amid a rising wave of high-profile breaches." |
 
 ### Attribution / Perpetrator
 
